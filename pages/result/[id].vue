@@ -27,7 +27,9 @@ useSeoMeta({
   ogDescription: pageDescription,
   ogType: 'article',
   ogUrl: () => `${config.public.siteUrl}/result/${id}`,
-  twitterCard: 'summary',
+  ogImage: `${config.public.siteUrl}/ogp.png`,
+  twitterImage: `${config.public.siteUrl}/ogp.png`,
+  twitterCard: 'summary_large_image',
 })
 </script>
 

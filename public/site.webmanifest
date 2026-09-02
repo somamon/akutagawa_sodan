@@ -1,0 +1,13 @@
+{
+  "name": "AI芥川龍之介の人生相談",
+  "short_name": "芥川に相談",
+  "description": "文豪・芥川龍之介（AI）があなたの悩みに皮肉と諦念をもって答えます。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#1a2233",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

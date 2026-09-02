@@ -17,7 +17,14 @@ if (config.public.adsenseClientId) {
 <template>
   <div class="min-h-screen bg-washi font-mincho text-ink">
     <header class="border-b border-sepia/30 py-6 text-center">
-      <NuxtLink to="/" class="inline-block">
+      <NuxtLink to="/" class="inline-flex flex-col items-center">
+        <img
+          src="/icon-192.png"
+          alt=""
+          width="72"
+          height="72"
+          class="mb-3 h-16 w-16 rounded-xl shadow-sm sm:h-[72px] sm:w-[72px]"
+        >
         <h1 class="text-2xl font-bold tracking-widest sm:text-3xl">AI芥川龍之介の人生相談</h1>
         <p class="mt-2 text-sm text-sepia">— 君の悩み、僕が冷徹に解剖しよう —</p>
       </NuxtLink>

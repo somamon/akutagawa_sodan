@@ -15,9 +15,14 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'AI芥川龍之介の人生相談' },
         { property: 'og:description', content: '文豪・芥川龍之介（AI）があなたの悩みに皮肉と諦念をもって答えます。' },
         { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'summary' },
+        { property: 'og:site_name', content: 'AI芥川龍之介の人生相談' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'theme-color', content: '#1a2233' },
       ],
       link: [
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/site.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {

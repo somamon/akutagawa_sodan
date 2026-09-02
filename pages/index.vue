@@ -1,6 +1,14 @@
 <script setup lang="ts">
 const { answer, isStreaming, resultId, error, ask } = useAkutagawa()
 
+// OGP画像は絶対URLである必要があるため、ここで設定する
+const { siteUrl } = useRuntimeConfig().public
+useSeoMeta({
+  ogImage: `${siteUrl}/ogp.png`,
+  ogUrl: siteUrl,
+  twitterImage: `${siteUrl}/ogp.png`,
+})
+
 const submitted = ref(false)
 
 async function onSubmit(payload: { nickname: string; query: string; isPublic: boolean }) {
