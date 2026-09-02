@@ -41,6 +41,29 @@ export default defineNuxtConfig({
     // NUXT_SUPABASE_URL / NUXT_SUPABASE_SERVICE_KEY で上書き
     supabaseUrl: '',
     supabaseServiceKey: '',
+
+    // ---- アプリ版の買い切り課金 ----
+    // ストアに登録した商品ID（NUXT_IAP_PRODUCT_ID）
+    iapProductId: 'work.akutagawa.app.pro',
+    // レシート検証に使うアプリの識別情報
+    iosBundleId: 'work.akutagawa.app',
+    // App Store Connect のアプリID（数値）。本番レシートの検証に必須（NUXT_IOS_APP_APPLE_ID）
+    iosAppAppleId: '',
+    androidPackageName: 'work.akutagawa.app',
+    // Play Console →「収益化のセットアップ」のライセンスキー（RSA公開鍵・base64）
+    androidLicenseKey: '',
+
+    // ---- 1日あたりの相談回数 ----
+    // AI生成は1回ごとに実費がかかるため、購入後も上限を設けて原価を天井で止める
+    // Web版（Cookieで識別・買い切りの導線なし）の上限（NUXT_WEB_DAILY_LIMIT）
+    webDailyLimit: 5,
+    freeDailyLimit: 3,
+    proDailyLimit: 30,
+    // 端末ID・Cookieを作り直して無料枠を取り直す乱用を鈍らせるための、回線単位の日次上限。
+    // Web版にも掛かるようになったため、携帯キャリアのNAT配下（1つのIPを多数の利用者が共有）で
+    // 善意の利用者を巻き込まないよう緩めに取っている（NUXT_IP_DAILY_LIMIT）
+    ipDailyLimit: 300,
+
     public: {
       // NUXT_PUBLIC_SITE_URL で上書き（Xシェア用の絶対URL生成に使用）
       siteUrl: 'http://localhost:3000',

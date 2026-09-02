@@ -1,6 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { AKUTAGAWA_SYSTEM_PROMPT } from '../utils/akutagawaPersona'
 import { checkRateLimit } from '../utils/rateLimit'
+import { consumeAskQuota, resolveAskSubject } from '../utils/quota'
 import { useSupabase } from '../utils/supabase'
 import type { AskStreamMessage } from '~/types/consultation'
 
@@ -37,6 +38,10 @@ export default defineEventHandler(async (event) => {
     message: '相談が続きすぎている。茶でも飲んで、しばし待ちたまえ。',
   })
 
+  // Web版・アプリ版のどちらも1回分の枠を確保してから生成に進む
+  // （上限に達していれば 402）。アプリは端末ID、WebはCookieで数える。
+  const quota = await consumeAskQuota(event, resolveAskSubject(event))
+
   const config = useRuntimeConfig()
   if (!config.anthropicApiKey) {
     throw createError({ statusCode: 500, statusMessage: 'NUXT_ANTHROPIC_API_KEY が設定されていません' })
@@ -50,12 +55,21 @@ export default defineEventHandler(async (event) => {
   // レスポンスは即座に返し、生成・保存は裏で進める
   ;(async () => {
     try {
+      // 無料枠は Sonnet 5、買い切りユーザーだけ Opus 5。
+      // 人格・文体・字数は同じシステムプロンプトで揃えているので、差は回答の深さに出る。
+      const isPro = quota.isPro
       const stream = anthropic.beta.messages.stream({
-        model: 'claude-opus-5',
+        model: isPro ? 'claude-opus-5' : 'claude-sonnet-5',
         max_tokens: 4096,
-        // 安全分類器による拒否時に自動で別モデルへフォールバックする
-        betas: ['server-side-fallback-2026-07-01'],
-        fallbacks: 'default',
+        // 安全分類器に拒否されたとき別モデルへ退避する。退避先を持つのは Opus 5 だけで
+        // （claude-sonnet-5 の allowed_fallback_models は空）、Sonnet 5 の拒否は
+        // 下の stop_reason === 'refusal' で受け止める。
+        ...(isPro
+          ? {
+              betas: ['server-side-fallback-2026-07-01' as const],
+              fallbacks: 'default' as const,
+            }
+          : {}),
         system: AKUTAGAWA_SYSTEM_PROMPT,
         messages: [
           {
@@ -99,7 +113,11 @@ export default defineEventHandler(async (event) => {
         console.error('[ask] Supabase クライアント初期化に失敗:', dbError)
       }
 
-      await push({ type: 'done', id })
+      await push({
+        type: 'done',
+        id,
+        quota: { isPro: quota.isPro, limit: quota.limit, remaining: quota.remaining },
+      })
     } catch (error) {
       console.error('[ask] 回答生成に失敗:', error)
       await push({ type: 'error', message: '回答の生成に失敗した。時を置いて、また訪ねてくれたまえ。' })

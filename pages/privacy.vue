@@ -34,6 +34,10 @@ useHead({ title: 'プライバシーポリシー・免責事項 | AI芥川龍之
     <section class="space-y-2">
       <h3 class="font-bold">4. Cookie・広告について</h3>
       <p class="text-sm leading-relaxed">
+        当サイトは、1日あたりの相談回数を数えるために、ブラウザを識別する無記名のCookieを1つ保存します。
+        個人を特定する情報は含まず、この用途以外には使用しません。
+      </p>
+      <p class="text-sm leading-relaxed">
         当サイトは、第三者配信の広告サービス（Google AdSense）を利用する場合があります。
         広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookieを使用することがあります。
         パーソナライズ広告は

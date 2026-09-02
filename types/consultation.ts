@@ -16,8 +16,15 @@ export interface ConsultationPage {
   nextCursor: string | null
 }
 
+/** 1日あたりの相談回数。Web版・アプリ版のどちらにも返る */
+export interface AskQuota {
+  isPro: boolean
+  limit: number
+  remaining: number
+}
+
 /** /api/ask が流す SSE メッセージ */
 export type AskStreamMessage =
   | { type: 'delta'; text: string }
-  | { type: 'done'; id: string | null }
+  | { type: 'done'; id: string | null; quota?: AskQuota }
   | { type: 'error'; message: string }
