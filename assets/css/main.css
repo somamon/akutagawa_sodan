@@ -13,10 +13,14 @@ body {
   box-shadow: 2px 3px 8px rgba(60, 50, 30, 0.12);
 }
 
-/* 回答欄：うっすらマス目（原稿用紙）を敷く */
+/* 回答欄：うっすら罫線（原稿用紙風）を敷く。
+   background-origin/clip を content-box にして、padding があっても
+   罫線が文字の行送り（28px）とぴったり揃うようにする */
 .manuscript {
   background-image:
     repeating-linear-gradient(to bottom, transparent, transparent 27px, rgba(178, 60, 51, 0.12) 27px, rgba(178, 60, 51, 0.12) 28px);
+  background-origin: content-box;
+  background-clip: content-box;
   line-height: 28px;
 }
 
