@@ -15,9 +15,13 @@ cd "$(dirname "$0")/.."
 SERVICE_NAME="${SERVICE_NAME:-akutagawa-soudan}"
 export PATH="$HOME/.local/bin:$PATH"
 
-# .env を読み込む（本番用の値が入っていること）
+# 本番用の環境変数を読み込む（.env.production を優先、なければ .env）
+ENV_FILE=".env"
+[ -f .env.production ] && ENV_FILE=".env.production"
+echo "==> 環境変数: ${ENV_FILE} を使用"
 set -a
-source .env
+# shellcheck disable=SC1090
+source "$ENV_FILE"
 set +a
 
 : "${NUXT_ANTHROPIC_API_KEY:?}" "${NUXT_SUPABASE_URL:?}" "${NUXT_SUPABASE_SERVICE_KEY:?}" "${NUXT_PUBLIC_SITE_URL:?}"
