@@ -8,6 +8,14 @@ export interface Consultation {
   created_at: string
 }
 
+/** /api/consultations の1ページ分 */
+export interface ConsultationPage {
+  items: Consultation[]
+  hasMore: boolean
+  /** 次ページ取得に使う created_at。これ以上ない場合は null */
+  nextCursor: string | null
+}
+
 /** /api/ask が流す SSE メッセージ */
 export type AskStreamMessage =
   | { type: 'delta'; text: string }
