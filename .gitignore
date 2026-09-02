@@ -1,0 +1,26 @@
+# Nuxt
+.nuxt
+.output
+.data
+dist
+
+# Node
+node_modules
+
+# Env
+.env
+.env.*
+!.env.example
+
+# コーパス原文（npm run fetch:corpus で再生成可能。整形済み processed/ は含める）
+corpus/raw/
+
+# Supabase local
+supabase/.temp
+supabase/.branches
+
+# Logs
+*.log
+
+# macOS
+.DS_Store

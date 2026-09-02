@@ -1,0 +1,24 @@
+{
+  "name": "akutagawa-jinsei-soudan",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "fetch:corpus": "node scripts/fetch-corpus.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.123.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@supabase/supabase-js": "^2.113.0",
+    "nuxt": "^3.21.11"
+  },
+  "devDependencies": {
+    "supabase": "^2.116.0",
+    "typescript": "~5.9.0",
+    "vue-tsc": "^3.3.11"
+  }
+}

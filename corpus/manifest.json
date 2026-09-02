@@ -1,0 +1,2642 @@
+{
+  "generatedAt": "2026-09-02T11:50:57.115Z",
+  "source": "https://www.aozora.gr.jp/index_pages/list_person_all_extended_utf8.zip",
+  "works": [
+    {
+      "id": "004872",
+      "title": "愛読書の印象",
+      "raw": "raw/004872_aidokushono_insho.txt",
+      "processed": "processed/愛読書の印象.txt",
+      "chars": 988
+    },
+    {
+      "id": "000016",
+      "title": "秋",
+      "raw": "raw/000016_aki.txt",
+      "processed": "processed/秋.txt",
+      "chars": 11152
+    },
+    {
+      "id": "000178",
+      "title": "芥川竜之介歌集",
+      "raw": "raw/000178_akutagawa_ryunosuke_kashu.txt",
+      "processed": "processed/芥川竜之介歌集.txt",
+      "chars": 2237
+    },
+    {
+      "id": "000015",
+      "title": "アグニの神",
+      "raw": "raw/000015_agunino_kami.txt",
+      "processed": "processed/アグニの神.txt",
+      "chars": 8225
+    },
+    {
+      "id": "043014",
+      "title": "アグニの神",
+      "raw": "raw/043014_agunino_kami.txt",
+      "processed": "processed/アグニの神_043014.txt",
+      "chars": 8185
+    },
+    {
+      "id": "003804",
+      "title": "悪魔",
+      "raw": "raw/003804_akuma.txt",
+      "processed": "processed/悪魔.txt",
+      "chars": 1568
+    },
+    {
+      "id": "000021",
+      "title": "浅草公園",
+      "subtitle": "或シナリオ",
+      "raw": "raw/000021_asakusa_koen.txt",
+      "processed": "processed/浅草公園.txt",
+      "chars": 8210
+    },
+    {
+      "id": "043361",
+      "title": "兄貴のような心持",
+      "subtitle": "――菊池寛氏の印象――",
+      "raw": "raw/043361_anikino_yona_kokoromochi.txt",
+      "processed": "processed/兄貴のような心持.txt",
+      "chars": 1055
+    },
+    {
+      "id": "000017",
+      "title": "あの頃の自分の事",
+      "raw": "raw/000017_anokorono_jibun.txt",
+      "processed": "processed/あの頃の自分の事.txt",
+      "chars": 15808
+    },
+    {
+      "id": "000014",
+      "title": "あばばばば",
+      "raw": "raw/000014_ababababa.txt",
+      "processed": "processed/あばばばば.txt",
+      "chars": 6352
+    },
+    {
+      "id": "060574",
+      "title": "Afterlife",
+      "subtitle": "英訳「後世」",
+      "raw": "raw/060574_afterlife_eiyaku_kosei.txt",
+      "processed": "processed/Afterlife.txt",
+      "chars": 2924
+    },
+    {
+      "id": "001138",
+      "title": "鴉片",
+      "raw": "raw/001138_ahen.txt",
+      "processed": "processed/鴉片.txt",
+      "chars": 2666
+    },
+    {
+      "id": "000019",
+      "title": "或阿呆の一生",
+      "raw": "raw/000019_aru_ahono_issho.txt",
+      "processed": "processed/或阿呆の一生.txt",
+      "chars": 12988
+    },
+    {
+      "id": "000073",
+      "title": "或敵打の話",
+      "raw": "raw/000073_aru_katakiuchino_hanashi.txt",
+      "processed": "processed/或敵打の話.txt",
+      "chars": 9352
+    },
+    {
+      "id": "000020",
+      "title": "或旧友へ送る手記",
+      "raw": "raw/000020_aru_kyuyue_okuru.txt",
+      "processed": "processed/或旧友へ送る手記.txt",
+      "chars": 3389
+    },
+    {
+      "id": "003827",
+      "title": "或社会主義者",
+      "raw": "raw/003827_aru_shakaishugisha.txt",
+      "processed": "processed/或社会主義者.txt",
+      "chars": 1446
+    },
+    {
+      "id": "000122",
+      "title": "或日の大石内蔵助",
+      "raw": "raw/000122_aruhino_oishi_kuranosuke.txt",
+      "processed": "processed/或日の大石内蔵助.txt",
+      "chars": 8920
+    },
+    {
+      "id": "000129",
+      "title": "或恋愛小説",
+      "raw": "raw/000129_aruren'ai_shosetsu.txt",
+      "processed": "processed/或恋愛小説.txt",
+      "chars": 4843
+    },
+    {
+      "id": "000018",
+      "title": "闇中問答",
+      "raw": "raw/000018_anchu_mondo.txt",
+      "processed": "processed/闇中問答.txt",
+      "chars": 6200
+    },
+    {
+      "id": "003767",
+      "title": "案頭の書",
+      "raw": "raw/003767_antono_sho.txt",
+      "processed": "processed/案頭の書.txt",
+      "chars": 4031
+    },
+    {
+      "id": "043362",
+      "title": "飯田蛇笏",
+      "raw": "raw/043362_iida_dakotsu.txt",
+      "processed": "processed/飯田蛇笏.txt",
+      "chars": 1500
+    },
+    {
+      "id": "016034",
+      "title": "遺書",
+      "raw": "raw/016034_isho.txt",
+      "processed": "processed/遺書.txt",
+      "chars": 2059
+    },
+    {
+      "id": "003750",
+      "title": "イズムと云ふ語の意味次第",
+      "raw": "raw/003750_ism_to_yu_gono.txt",
+      "processed": "processed/イズムと云ふ語の意味次第.txt",
+      "chars": 854
+    },
+    {
+      "id": "003748",
+      "title": "一番気乗のする時",
+      "raw": "raw/003748_ichiban_kinorino_surutoki.txt",
+      "processed": "processed/一番気乗のする時.txt",
+      "chars": 1810
+    },
+    {
+      "id": "000057",
+      "title": "一夕話",
+      "raw": "raw/000057_issekiwa.txt",
+      "processed": "processed/一夕話.txt",
+      "chars": 6001
+    },
+    {
+      "id": "003761",
+      "title": "伊東から",
+      "raw": "raw/003761_itokara.txt",
+      "processed": "processed/伊東から.txt",
+      "chars": 719
+    },
+    {
+      "id": "000058",
+      "title": "糸女覚え書",
+      "raw": "raw/000058_itojo_oboegaki.txt",
+      "processed": "processed/糸女覚え書.txt",
+      "chars": 6805
+    },
+    {
+      "id": "043363",
+      "title": "犬養君に就いて",
+      "raw": "raw/043363_inukaikunni_tsuite.txt",
+      "processed": "processed/犬養君に就いて.txt",
+      "chars": 332
+    },
+    {
+      "id": "000056",
+      "title": "犬と笛",
+      "raw": "raw/000056_inuto_fue.txt",
+      "processed": "processed/犬と笛.txt",
+      "chars": 7886
+    },
+    {
+      "id": "000055",
+      "title": "芋粥",
+      "raw": "raw/000055_imogayu.txt",
+      "processed": "processed/芋粥.txt",
+      "chars": 14706
+    },
+    {
+      "id": "004274",
+      "title": "岩野泡鳴氏",
+      "raw": "raw/004274_iwano_homei_shi.txt",
+      "processed": "processed/岩野泡鳴氏.txt",
+      "chars": 611
+    },
+    {
+      "id": "000177",
+      "title": "魚河岸",
+      "raw": "raw/000177_uogasi.txt",
+      "processed": "processed/魚河岸.txt",
+      "chars": 2144
+    },
+    {
+      "id": "004312",
+      "title": "内田百間氏",
+      "raw": "raw/004312_uchida_hyakken_shi.txt",
+      "processed": "processed/内田百間氏.txt",
+      "chars": 503
+    },
+    {
+      "id": "051864",
+      "title": "産屋",
+      "subtitle": "萩原朔太郎君に献ず",
+      "raw": "raw/051864_ubuya.txt",
+      "processed": "processed/産屋.txt",
+      "chars": 762
+    },
+    {
+      "id": "000174",
+      "title": "馬の脚",
+      "raw": "raw/000174_umano_ashi.txt",
+      "processed": "processed/馬の脚.txt",
+      "chars": 11071
+    },
+    {
+      "id": "000175",
+      "title": "海のほとり",
+      "raw": "raw/000175_umino_hotori.txt",
+      "processed": "processed/海のほとり.txt",
+      "chars": 6146
+    },
+    {
+      "id": "003823",
+      "title": "囈語",
+      "raw": "raw/003823_uwagoto.txt",
+      "processed": "processed/囈語.txt",
+      "chars": 276
+    },
+    {
+      "id": "000176",
+      "title": "運",
+      "raw": "raw/000176_un.txt",
+      "processed": "processed/運.txt",
+      "chars": 7006
+    },
+    {
+      "id": "003751",
+      "title": "永久に不愉快な二重生活",
+      "raw": "raw/003751_eikyuni_fuyukaina.txt",
+      "processed": "processed/永久に不愉快な二重生活.txt",
+      "chars": 588
+    },
+    {
+      "id": "000035",
+      "title": "英雄の器",
+      "raw": "raw/000035_eiyuno_utsuwa.txt",
+      "processed": "processed/英雄の器.txt",
+      "chars": 1644
+    },
+    {
+      "id": "043364",
+      "title": "江口渙氏の事",
+      "raw": "raw/043364_eguchi_kanshino_koto.txt",
+      "processed": "processed/江口渙氏の事.txt",
+      "chars": 1350
+    },
+    {
+      "id": "003825",
+      "title": "槐",
+      "raw": "raw/003825_enju.txt",
+      "processed": "processed/槐.txt",
+      "chars": 663
+    },
+    {
+      "id": "000118",
+      "title": "老いたる素戔嗚尊",
+      "raw": "raw/000118_oitaru_susanoo.txt",
+      "processed": "processed/老いたる素戔嗚尊.txt",
+      "chars": 11957
+    },
+    {
+      "id": "000117",
+      "title": "往生絵巻",
+      "raw": "raw/000117_ojo_emaki.txt",
+      "processed": "processed/往生絵巻.txt",
+      "chars": 3127
+    },
+    {
+      "id": "003763",
+      "title": "鸚鵡",
+      "subtitle": "――大震覚え書の一つ――",
+      "raw": "raw/003763_omu.txt",
+      "processed": "processed/鸚鵡.txt",
+      "chars": 1221
+    },
+    {
+      "id": "000123",
+      "title": "大川の水",
+      "raw": "raw/000123_okawano_mizu.txt",
+      "processed": "processed/大川の水.txt",
+      "chars": 4103
+    },
+    {
+      "id": "049328",
+      "title": "大久保湖州",
+      "raw": "raw/049328_okubo_koshu.txt",
+      "processed": "processed/大久保湖州.txt",
+      "chars": 11036
+    },
+    {
+      "id": "003824",
+      "title": "Ｏ君の新秋",
+      "raw": "raw/003824_okunno_shinshu.txt",
+      "processed": "processed/Ｏ君の新秋.txt",
+      "chars": 1757
+    },
+    {
+      "id": "000115",
+      "title": "尾形了斎覚え書",
+      "raw": "raw/000115_ogata_ryosai.txt",
+      "processed": "processed/尾形了斎覚え書.txt",
+      "chars": 3710
+    },
+    {
+      "id": "000116",
+      "title": "おぎん",
+      "raw": "raw/000116_ogin.txt",
+      "processed": "processed/おぎん.txt",
+      "chars": 5282
+    },
+    {
+      "id": "000119",
+      "title": "お時儀",
+      "raw": "raw/000119_ojigi.txt",
+      "processed": "processed/お時儀.txt",
+      "chars": 4093
+    },
+    {
+      "id": "000125",
+      "title": "おしの",
+      "raw": "raw/000125_oshino.txt",
+      "processed": "processed/おしの.txt",
+      "chars": 4191
+    },
+    {
+      "id": "000126",
+      "title": "お富の貞操",
+      "raw": "raw/000126_otomino_teiso.txt",
+      "processed": "processed/お富の貞操.txt",
+      "chars": 8475
+    },
+    {
+      "id": "003826",
+      "title": "鬼ごつこ",
+      "raw": "raw/003826_onigokko.txt",
+      "processed": "processed/鬼ごつこ.txt",
+      "chars": 512
+    },
+    {
+      "id": "000124",
+      "title": "お律と子等と",
+      "raw": "raw/000124_oritsuto_korato.txt",
+      "processed": "processed/お律と子等と.txt",
+      "chars": 25782
+    },
+    {
+      "id": "000121",
+      "title": "温泉だより",
+      "raw": "raw/000121_onsen_dayori.txt",
+      "processed": "processed/温泉だより.txt",
+      "chars": 6141
+    },
+    {
+      "id": "000120",
+      "title": "女",
+      "raw": "raw/000120_onna.txt",
+      "processed": "processed/女.txt",
+      "chars": 1967
+    },
+    {
+      "id": "000067",
+      "title": "開化の良人",
+      "raw": "raw/000067_kaikano_otto.txt",
+      "processed": "processed/開化の良人.txt",
+      "chars": 16458
+    },
+    {
+      "id": "000066",
+      "title": "開化の殺人",
+      "raw": "raw/000066_kaikano_satsujin.txt",
+      "processed": "processed/開化の殺人.txt",
+      "chars": 8445
+    },
+    {
+      "id": "000065",
+      "title": "貝殻",
+      "raw": "raw/000065_kaigara.txt",
+      "processed": "processed/貝殻.txt",
+      "chars": 5013
+    },
+    {
+      "id": "003764",
+      "title": "解嘲",
+      "raw": "raw/003764_kaicho.txt",
+      "processed": "processed/解嘲.txt",
+      "chars": 3790
+    },
+    {
+      "id": "003800",
+      "title": "蛙",
+      "raw": "raw/003800_kaeru.txt",
+      "processed": "processed/蛙.txt",
+      "chars": 1469
+    },
+    {
+      "id": "043365",
+      "title": "格さんと食慾",
+      "subtitle": "――最近の宇野浩二氏――",
+      "raw": "raw/043365_kakusanto_shokuyoku.txt",
+      "processed": "processed/格さんと食慾.txt",
+      "chars": 630
+    },
+    {
+      "id": "000064",
+      "title": "影",
+      "raw": "raw/000064_kage.txt",
+      "processed": "processed/影.txt",
+      "chars": 10503
+    },
+    {
+      "id": "000074",
+      "title": "片恋",
+      "raw": "raw/000074_katakoi.txt",
+      "processed": "processed/片恋.txt",
+      "chars": 4551
+    },
+    {
+      "id": "003814",
+      "title": "かちかち山",
+      "raw": "raw/003814_kachikachiyama.txt",
+      "processed": "processed/かちかち山.txt",
+      "chars": 1040
+    },
+    {
+      "id": "003772",
+      "title": "学校友だち",
+      "raw": "raw/003772_gakko_tomodachi.txt",
+      "processed": "processed/学校友だち.txt",
+      "chars": 2645
+    },
+    {
+      "id": "000069",
+      "title": "河童",
+      "raw": "raw/000069_kappa.txt",
+      "processed": "processed/河童.txt",
+      "chars": 38073
+    },
+    {
+      "id": "045761",
+      "title": "河童",
+      "raw": "raw/045761_kappa.txt",
+      "processed": "processed/河童_045761.txt",
+      "chars": 36889
+    },
+    {
+      "id": "003802",
+      "title": "南瓜",
+      "raw": "raw/003802_kabocha.txt",
+      "processed": "processed/南瓜.txt",
+      "chars": 2858
+    },
+    {
+      "id": "000068",
+      "title": "神神の微笑",
+      "raw": "raw/000068_kamigamino_bisho.txt",
+      "processed": "processed/神神の微笑.txt",
+      "chars": 9003
+    },
+    {
+      "id": "003766",
+      "title": "「仮面」の人々",
+      "raw": "raw/003766_kamenno_hitobito.txt",
+      "processed": "processed/「仮面」の人々.txt",
+      "chars": 636
+    },
+    {
+      "id": "043366",
+      "title": "鴨猟",
+      "raw": "raw/043366_kamoryo.txt",
+      "processed": "processed/鴨猟.txt",
+      "chars": 736
+    },
+    {
+      "id": "002323",
+      "title": "軽井沢で",
+      "raw": "raw/002323_karuizawade.txt",
+      "processed": "processed/軽井沢で.txt",
+      "chars": 622
+    },
+    {
+      "id": "000029",
+      "title": "カルメン",
+      "raw": "raw/000029_carmen.txt",
+      "processed": "processed/カルメン.txt",
+      "chars": 1944
+    },
+    {
+      "id": "000070",
+      "title": "彼",
+      "raw": "raw/000070_kare.txt",
+      "processed": "processed/彼.txt",
+      "chars": 5090
+    },
+    {
+      "id": "000071",
+      "title": "彼　第二",
+      "raw": "raw/000071_kare_daini.txt",
+      "processed": "processed/彼　第二.txt",
+      "chars": 5615
+    },
+    {
+      "id": "000072",
+      "title": "枯野抄",
+      "raw": "raw/000072_karenosho.txt",
+      "processed": "processed/枯野抄.txt",
+      "chars": 7799
+    },
+    {
+      "id": "043367",
+      "title": "彼の長所十八",
+      "subtitle": "――南部修太郎氏の印象――",
+      "raw": "raw/043367_kareno_chosho_juhachi.txt",
+      "processed": "processed/彼の長所十八.txt",
+      "chars": 541
+    },
+    {
+      "id": "003809",
+      "title": "寒山拾得",
+      "raw": "raw/003809_kanzanjittoku.txt",
+      "processed": "processed/寒山拾得.txt",
+      "chars": 1208
+    },
+    {
+      "id": "003747",
+      "title": "鑑定",
+      "raw": "raw/003747_kantei.txt",
+      "processed": "processed/鑑定.txt",
+      "chars": 1281
+    },
+    {
+      "id": "000077",
+      "title": "奇怪な再会",
+      "raw": "raw/000077_kikaina_saikai.txt",
+      "processed": "processed/奇怪な再会.txt",
+      "chars": 21371
+    },
+    {
+      "id": "002366",
+      "title": "機関車を見ながら",
+      "raw": "raw/002366_kikanshao_minagara.txt",
+      "processed": "processed/機関車を見ながら.txt",
+      "chars": 2112
+    },
+    {
+      "id": "000076",
+      "title": "奇遇",
+      "raw": "raw/000076_kigu.txt",
+      "processed": "processed/奇遇.txt",
+      "chars": 6354
+    },
+    {
+      "id": "043368",
+      "title": "「菊池寛全集」の序",
+      "raw": "raw/043368_kikuchi_kan_zenshuno_jo.txt",
+      "processed": "processed/「菊池寛全集」の序.txt",
+      "chars": 2184
+    },
+    {
+      "id": "000080",
+      "title": "煙管",
+      "raw": "raw/000080_kiseru.txt",
+      "processed": "processed/煙管.txt",
+      "chars": 6597
+    },
+    {
+      "id": "000081",
+      "title": "木曽義仲論",
+      "raw": "raw/000081_kisono_yoshinaka.txt",
+      "processed": "processed/木曽義仲論.txt",
+      "chars": 33610
+    },
+    {
+      "id": "001137",
+      "title": "着物",
+      "raw": "raw/001137_kimono.txt",
+      "processed": "processed/着物.txt",
+      "chars": 1222
+    },
+    {
+      "id": "002327",
+      "title": "凶",
+      "raw": "raw/002327_kyo.txt",
+      "processed": "processed/凶.txt",
+      "chars": 1080
+    },
+    {
+      "id": "000093",
+      "title": "「鏡花全集」目録開口",
+      "raw": "raw/000093_kyokazenshu_mokuroku.txt",
+      "processed": "processed/「鏡花全集」目録開口.txt",
+      "chars": 1214
+    },
+    {
+      "id": "003815",
+      "title": "教訓談",
+      "raw": "raw/003815_kyokundan.txt",
+      "processed": "processed/教訓談.txt",
+      "chars": 606
+    },
+    {
+      "id": "003803",
+      "title": "京都日記",
+      "raw": "raw/003803_kyoto_nikki.txt",
+      "processed": "processed/京都日記.txt",
+      "chars": 3676
+    },
+    {
+      "id": "000079",
+      "title": "きりしとほろ上人伝",
+      "raw": "raw/000079_kirishitohoro_shoninden.txt",
+      "processed": "processed/きりしとほろ上人伝.txt",
+      "chars": 12393
+    },
+    {
+      "id": "000039",
+      "title": "疑惑",
+      "raw": "raw/000039_giwaku.txt",
+      "processed": "processed/疑惑.txt",
+      "chars": 12407
+    },
+    {
+      "id": "000078",
+      "title": "金将軍",
+      "raw": "raw/000078_kin_shogun.txt",
+      "processed": "processed/金将軍.txt",
+      "chars": 2736
+    },
+    {
+      "id": "002328",
+      "title": "鵠沼雑記",
+      "raw": "raw/002328_kugenuma_zakki.txt",
+      "processed": "processed/鵠沼雑記.txt",
+      "chars": 1698
+    },
+    {
+      "id": "003784",
+      "title": "孔雀",
+      "raw": "raw/003784_kujaku.txt",
+      "processed": "processed/孔雀.txt",
+      "chars": 359
+    },
+    {
+      "id": "000091",
+      "title": "首が落ちた話",
+      "raw": "raw/000091_kubigaochita_hanashi.txt",
+      "processed": "processed/首が落ちた話.txt",
+      "chars": 7709
+    },
+    {
+      "id": "043369",
+      "title": "久保田万太郎氏",
+      "raw": "raw/043369_kubota_mantaro.txt",
+      "processed": "processed/久保田万太郎氏.txt",
+      "chars": 1307
+    },
+    {
+      "id": "043370",
+      "title": "久米正雄",
+      "subtitle": "――傚久米正雄文体――",
+      "raw": "raw/043370_kume_masao.txt",
+      "processed": "processed/久米正雄.txt",
+      "chars": 711
+    },
+    {
+      "id": "043371",
+      "title": "久米正雄氏の事",
+      "raw": "raw/043371_kume_masaoshino_koto.txt",
+      "processed": "processed/久米正雄氏の事.txt",
+      "chars": 580
+    },
+    {
+      "id": "000092",
+      "title": "蜘蛛の糸",
+      "raw": "raw/000092_kumono_ito.txt",
+      "processed": "processed/蜘蛛の糸.txt",
+      "chars": 2899
+    },
+    {
+      "id": "051865",
+      "title": "軍艦金剛航海記",
+      "raw": "raw/051865_gunkan_kongo_kokaiki.txt",
+      "processed": "processed/軍艦金剛航海記.txt",
+      "chars": 6642
+    },
+    {
+      "id": "004273",
+      "title": "芸術その他",
+      "raw": "raw/004273_geijutsu_sonota.txt",
+      "processed": "processed/芸術その他.txt",
+      "chars": 3965
+    },
+    {
+      "id": "000038",
+      "title": "戯作三昧",
+      "raw": "raw/000038_gesaku_zanmai_shinkana.txt",
+      "processed": "processed/戯作三昧.txt",
+      "chars": 21106
+    },
+    {
+      "id": "000037",
+      "title": "戯作三昧",
+      "raw": "raw/000037_gesaku_zanmai.txt",
+      "processed": "processed/戯作三昧_000037.txt",
+      "chars": 20337
+    },
+    {
+      "id": "000075",
+      "title": "袈裟と盛遠",
+      "raw": "raw/000075_kesato_morito.txt",
+      "processed": "processed/袈裟と盛遠.txt",
+      "chars": 7611
+    },
+    {
+      "id": "001131",
+      "title": "結婚難並びに恋愛難",
+      "raw": "raw/001131_kekkon_nan.txt",
+      "processed": "processed/結婚難並びに恋愛難.txt",
+      "chars": 1728
+    },
+    {
+      "id": "000036",
+      "title": "玄鶴山房",
+      "raw": "raw/000036_genkaku_sanbo.txt",
+      "processed": "processed/玄鶴山房.txt",
+      "chars": 12495
+    },
+    {
+      "id": "003797",
+      "title": "講演軍記",
+      "raw": "raw/003797_koengunki.txt",
+      "processed": "processed/講演軍記.txt",
+      "chars": 574
+    },
+    {
+      "id": "043375",
+      "title": "剛才人と柔才人と",
+      "raw": "raw/043375_gosaijinto_jusaijinto.txt",
+      "processed": "processed/剛才人と柔才人と.txt",
+      "chars": 496
+    },
+    {
+      "id": "000090",
+      "title": "好色",
+      "raw": "raw/000090_koshoku.txt",
+      "processed": "processed/好色.txt",
+      "chars": 11032
+    },
+    {
+      "id": "033202",
+      "title": "後世",
+      "raw": "raw/033202_kosei.txt",
+      "processed": "processed/後世.txt",
+      "chars": 1205
+    },
+    {
+      "id": "000089",
+      "title": "校正後に",
+      "raw": "raw/000089_koseigoni.txt",
+      "processed": "processed/校正後に.txt",
+      "chars": 1754
+    },
+    {
+      "id": "043376",
+      "title": "合理的、同時に多量の人間味",
+      "subtitle": "――相互印象・菊池寛氏――",
+      "raw": "raw/043376_goriteki_dojini_taryono.txt",
+      "processed": "processed/合理的、同時に多量の人間味.txt",
+      "chars": 1466
+    },
+    {
+      "id": "000088",
+      "title": "黄粱夢",
+      "raw": "raw/000088_koryomu.txt",
+      "processed": "processed/黄粱夢.txt",
+      "chars": 1001
+    },
+    {
+      "id": "000085",
+      "title": "黒衣聖母",
+      "raw": "raw/000085_kokui_seibo.txt",
+      "processed": "processed/黒衣聖母.txt",
+      "chars": 4382
+    },
+    {
+      "id": "043373",
+      "title": "小杉未醒氏",
+      "raw": "raw/043373_kosugi_misei.txt",
+      "processed": "processed/小杉未醒氏.txt",
+      "chars": 832
+    },
+    {
+      "id": "000082",
+      "title": "古千屋",
+      "raw": "raw/000082_kochiya.txt",
+      "processed": "processed/古千屋.txt",
+      "chars": 2949
+    },
+    {
+      "id": "003738",
+      "title": "骨董羹",
+      "subtitle": "―寿陵余子の仮名のもとに筆を執れる戯文―",
+      "raw": "raw/003738_kottokan.txt",
+      "processed": "processed/骨董羹.txt",
+      "chars": 11072
+    },
+    {
+      "id": "000083",
+      "title": "孤独地獄",
+      "raw": "raw/000083_kodokujigoku.txt",
+      "processed": "processed/孤独地獄.txt",
+      "chars": 2642
+    },
+    {
+      "id": "000084",
+      "title": "子供の病気",
+      "subtitle": "一游亭に",
+      "raw": "raw/000084_kodomono_byoki.txt",
+      "processed": "processed/子供の病気.txt",
+      "chars": 5679
+    },
+    {
+      "id": "000087",
+      "title": "湖南の扇",
+      "raw": "raw/000087_konanno_ogi.txt",
+      "processed": "processed/湖南の扇.txt",
+      "chars": 9170
+    },
+    {
+      "id": "043374",
+      "title": "近藤浩一路氏",
+      "raw": "raw/043374_kondo_koichiro.txt",
+      "processed": "processed/近藤浩一路氏.txt",
+      "chars": 717
+    },
+    {
+      "id": "001134",
+      "title": "金春会の「隅田川」",
+      "raw": "raw/001134_konparukai.txt",
+      "processed": "processed/金春会の「隅田川」.txt",
+      "chars": 3192
+    },
+    {
+      "id": "000136",
+      "title": "西郷隆盛",
+      "raw": "raw/000136_saigo_takamori.txt",
+      "processed": "processed/西郷隆盛.txt",
+      "chars": 11000
+    },
+    {
+      "id": "003779",
+      "title": "才一巧亦不二",
+      "raw": "raw/003779_saino_ikkonarumo.txt",
+      "processed": "processed/才一巧亦不二.txt",
+      "chars": 449
+    },
+    {
+      "id": "000141",
+      "title": "西方の人",
+      "raw": "raw/000141_saihono_hito.txt",
+      "processed": "processed/西方の人.txt",
+      "chars": 14691
+    },
+    {
+      "id": "003816",
+      "title": "鷺と鴛鴦",
+      "raw": "raw/003816_sagito_oshidori.txt",
+      "processed": "processed/鷺と鴛鴦.txt",
+      "chars": 1192
+    },
+    {
+      "id": "051214",
+      "title": "雑信一束",
+      "raw": "raw/051214_zasshin_issoku.txt",
+      "processed": "processed/雑信一束.txt",
+      "chars": 1877
+    },
+    {
+      "id": "003739",
+      "title": "雑筆",
+      "raw": "raw/003739_zappitsu.txt",
+      "processed": "processed/雑筆.txt",
+      "chars": 10675
+    },
+    {
+      "id": "004277",
+      "title": "佐藤春夫氏",
+      "raw": "raw/004277_sato_haruo_shi.txt",
+      "processed": "processed/佐藤春夫氏.txt",
+      "chars": 789
+    },
+    {
+      "id": "043377",
+      "title": "佐藤春夫氏の事",
+      "raw": "raw/043377_sato_haruoshino_koto.txt",
+      "processed": "processed/佐藤春夫氏の事.txt",
+      "chars": 450
+    },
+    {
+      "id": "000185",
+      "title": "さまよえる猶太人",
+      "raw": "raw/000185_samayoeru_yudayajin.txt",
+      "processed": "processed/さまよえる猶太人.txt",
+      "chars": 6880
+    },
+    {
+      "id": "000137",
+      "title": "寒さ",
+      "raw": "raw/000137_samusa.txt",
+      "processed": "processed/寒さ.txt",
+      "chars": 4035
+    },
+    {
+      "id": "003820",
+      "title": "沙羅の花",
+      "raw": "raw/003820_sarano_hana.txt",
+      "processed": "processed/沙羅の花.txt",
+      "chars": 171
+    },
+    {
+      "id": "000139",
+      "title": "猿",
+      "raw": "raw/000139_saru.txt",
+      "processed": "processed/猿.txt",
+      "chars": 5604
+    },
+    {
+      "id": "000140",
+      "title": "猿蟹合戦",
+      "raw": "raw/000140_sarukani_gassen.txt",
+      "processed": "processed/猿蟹合戦.txt",
+      "chars": 2262
+    },
+    {
+      "id": "000138",
+      "title": "三右衛門の罪",
+      "raw": "raw/000138_san'emonno_tsumi.txt",
+      "processed": "processed/三右衛門の罪.txt",
+      "chars": 7221
+    },
+    {
+      "id": "000146",
+      "title": "死後",
+      "raw": "raw/000146_shigo.txt",
+      "processed": "processed/死後.txt",
+      "chars": 3026
+    },
+    {
+      "id": "000061",
+      "title": "地獄変",
+      "raw": "raw/000061_jigokuhen_shohan.txt",
+      "processed": "processed/地獄変.txt",
+      "chars": 26495
+    },
+    {
+      "id": "000060",
+      "title": "地獄変",
+      "raw": "raw/000060_jigokuhen_shinji.txt",
+      "processed": "processed/地獄変_000060.txt",
+      "chars": 26535
+    },
+    {
+      "id": "003818",
+      "title": "詩集",
+      "raw": "raw/003818_shishu.txt",
+      "processed": "processed/詩集.txt",
+      "chars": 784
+    },
+    {
+      "id": "000013",
+      "title": "十本の針",
+      "raw": "raw/000013_jipponno_hari.txt",
+      "processed": "processed/十本の針.txt",
+      "chars": 2221
+    },
+    {
+      "id": "003742",
+      "title": "支那の画",
+      "raw": "raw/003742_shinano_e.txt",
+      "processed": "processed/支那の画.txt",
+      "chars": 1537
+    },
+    {
+      "id": "051212",
+      "title": "「支那游記」自序",
+      "raw": "raw/051212_shina_yuki_jijo.txt",
+      "processed": "processed/「支那游記」自序.txt",
+      "chars": 375
+    },
+    {
+      "id": "043380",
+      "title": "島木赤彦氏",
+      "raw": "raw/043380_shimagi_akahiko.txt",
+      "processed": "processed/島木赤彦氏.txt",
+      "chars": 1163
+    },
+    {
+      "id": "002326",
+      "title": "耳目記",
+      "raw": "raw/002326_jimokuki.txt",
+      "processed": "processed/耳目記.txt",
+      "chars": 642
+    },
+    {
+      "id": "001129",
+      "title": "霜夜",
+      "raw": "raw/001129_shimoyo.txt",
+      "processed": "processed/霜夜.txt",
+      "chars": 617
+    },
+    {
+      "id": "000059",
+      "title": "邪宗門",
+      "raw": "raw/000059_jashumon.txt",
+      "processed": "processed/邪宗門.txt",
+      "chars": 40537
+    },
+    {
+      "id": "051215",
+      "title": "上海游記",
+      "raw": "raw/051215_shanhai_yuki.txt",
+      "processed": "processed/上海游記.txt",
+      "chars": 34638
+    },
+    {
+      "id": "000062",
+      "title": "十円札",
+      "raw": "raw/000062_juensatsu.txt",
+      "processed": "processed/十円札.txt",
+      "chars": 8736
+    },
+    {
+      "id": "000162",
+      "title": "秋山図",
+      "raw": "raw/000162_shuzanzu.txt",
+      "processed": "processed/秋山図.txt",
+      "chars": 7631
+    },
+    {
+      "id": "003769",
+      "title": "蒐書",
+      "raw": "raw/003769_shusho.txt",
+      "processed": "processed/蒐書.txt",
+      "chars": 822
+    },
+    {
+      "id": "000158",
+      "title": "侏儒の言葉",
+      "raw": "raw/000158_shujuno_kotoba.txt",
+      "processed": "processed/侏儒の言葉.txt",
+      "chars": 36774
+    },
+    {
+      "id": "043751",
+      "title": "侏儒の言葉",
+      "raw": "raw/043751_shujuno_kotoba.txt",
+      "processed": "processed/侏儒の言葉_043751.txt",
+      "chars": 32264
+    },
+    {
+      "id": "024451",
+      "title": "「侏儒の言葉」の序",
+      "raw": "raw/024451_shujuno_kotobano_jo.txt",
+      "processed": "processed/「侏儒の言葉」の序.txt",
+      "chars": 122
+    },
+    {
+      "id": "000161",
+      "title": "酒虫",
+      "raw": "raw/000161_shuchu.txt",
+      "processed": "processed/酒虫.txt",
+      "chars": 6801
+    },
+    {
+      "id": "000160",
+      "title": "出帆",
+      "raw": "raw/000160_shuppon.txt",
+      "processed": "processed/出帆.txt",
+      "chars": 2525
+    },
+    {
+      "id": "000063",
+      "title": "じゅりあの・吉助",
+      "raw": "raw/000063_juliano_kichisuke.txt",
+      "processed": "processed/じゅりあの・吉助.txt",
+      "chars": 2009
+    },
+    {
+      "id": "000159",
+      "title": "俊寛",
+      "raw": "raw/000159_shunkan.txt",
+      "processed": "processed/俊寛.txt",
+      "chars": 16414
+    },
+    {
+      "id": "000156",
+      "title": "将軍",
+      "raw": "raw/000156_shogun.txt",
+      "processed": "processed/将軍.txt",
+      "chars": 15134
+    },
+    {
+      "id": "003813",
+      "title": "商賈聖母",
+      "raw": "raw/003813_shokoseibo.txt",
+      "processed": "processed/商賈聖母.txt",
+      "chars": 305
+    },
+    {
+      "id": "003801",
+      "title": "饒舌",
+      "raw": "raw/003801_jozetsu.txt",
+      "processed": "processed/饒舌.txt",
+      "chars": 1729
+    },
+    {
+      "id": "004313",
+      "title": "小説作法十則",
+      "raw": "raw/004313_shosetsusaho.txt",
+      "processed": "processed/小説作法十則.txt",
+      "chars": 1917
+    },
+    {
+      "id": "004278",
+      "title": "小説の戯曲化",
+      "raw": "raw/004278_shosetsuno_gikyokuka.txt",
+      "processed": "processed/小説の戯曲化.txt",
+      "chars": 2256
+    },
+    {
+      "id": "003794",
+      "title": "小説の読者",
+      "raw": "raw/003794_shosetsuno_dokusha.txt",
+      "processed": "processed/小説の読者.txt",
+      "chars": 739
+    },
+    {
+      "id": "000155",
+      "title": "少年",
+      "raw": "raw/000155_shonen.txt",
+      "processed": "processed/少年.txt",
+      "chars": 15376
+    },
+    {
+      "id": "003770",
+      "title": "娼婦美と冒険",
+      "raw": "raw/003770_shofubito_boken.txt",
+      "processed": "processed/娼婦美と冒険.txt",
+      "chars": 674
+    },
+    {
+      "id": "003795",
+      "title": "食物として",
+      "raw": "raw/003795_shokumotsutoshite.txt",
+      "processed": "processed/食物として.txt",
+      "chars": 450
+    },
+    {
+      "id": "000148",
+      "title": "虱",
+      "raw": "raw/000148_shirami.txt",
+      "processed": "processed/虱.txt",
+      "chars": 4182
+    },
+    {
+      "id": "024452",
+      "title": "しるこ",
+      "raw": "raw/024452_shiruko.txt",
+      "processed": "processed/しるこ.txt",
+      "chars": 819
+    },
+    {
+      "id": "000149",
+      "title": "白",
+      "raw": "raw/000149_shiro.txt",
+      "processed": "processed/白.txt",
+      "chars": 7683
+    },
+    {
+      "id": "000147",
+      "title": "蜃気楼",
+      "raw": "raw/000147_shinkiro.txt",
+      "processed": "processed/蜃気楼.txt",
+      "chars": 4748
+    },
+    {
+      "id": "004280",
+      "title": "新緑の庭",
+      "raw": "raw/004280_shinryokuno_niwa.txt",
+      "processed": "processed/新緑の庭.txt",
+      "chars": 452
+    },
+    {
+      "id": "002322",
+      "title": "塵労",
+      "raw": "raw/002322_jinro.txt",
+      "processed": "processed/塵労.txt",
+      "chars": 568
+    },
+    {
+      "id": "000153",
+      "title": "素戔嗚尊",
+      "raw": "raw/000153_susanono_mikoto.txt",
+      "processed": "processed/素戔嗚尊.txt",
+      "chars": 43375
+    },
+    {
+      "id": "000154",
+      "title": "捨児",
+      "raw": "raw/000154_sutego.txt",
+      "processed": "processed/捨児.txt",
+      "chars": 4738
+    },
+    {
+      "id": "000142",
+      "title": "青年と死",
+      "raw": "raw/000142_seinento_shi.txt",
+      "processed": "processed/青年と死.txt",
+      "chars": 4015
+    },
+    {
+      "id": "003756",
+      "title": "西洋画のやうな日本画",
+      "raw": "raw/003756_seiyoganoyona_nihonga.txt",
+      "processed": "processed/西洋画のやうな日本画.txt",
+      "chars": 995
+    },
+    {
+      "id": "002325",
+      "title": "仙人",
+      "raw": "raw/002325_sennin.txt",
+      "processed": "processed/仙人.txt",
+      "chars": 680
+    },
+    {
+      "id": "000144",
+      "title": "仙人",
+      "raw": "raw/000144_sennin2.txt",
+      "processed": "processed/仙人_000144.txt",
+      "chars": 3290
+    },
+    {
+      "id": "000143",
+      "title": "仙人",
+      "raw": "raw/000143_sennin.txt",
+      "processed": "processed/仙人_000143.txt",
+      "chars": 5398
+    },
+    {
+      "id": "000150",
+      "title": "葬儀記",
+      "raw": "raw/000150_sogiki.txt",
+      "processed": "processed/葬儀記.txt",
+      "chars": 4040
+    },
+    {
+      "id": "003799",
+      "title": "創作",
+      "raw": "raw/003799_sosaku.txt",
+      "processed": "processed/創作.txt",
+      "chars": 2378
+    },
+    {
+      "id": "000152",
+      "title": "早春",
+      "raw": "raw/000152_soshun.txt",
+      "processed": "processed/早春.txt",
+      "chars": 3172
+    },
+    {
+      "id": "000151",
+      "title": "漱石山房の秋",
+      "raw": "raw/000151_soseki_sanbono_aki.txt",
+      "processed": "processed/漱石山房の秋.txt",
+      "chars": 1634
+    },
+    {
+      "id": "002321",
+      "title": "漱石山房の冬",
+      "raw": "raw/002321_soseki_sanbono_fuyu.txt",
+      "processed": "processed/漱石山房の冬.txt",
+      "chars": 1597
+    },
+    {
+      "id": "004301",
+      "title": "装幀に就いての私の意見",
+      "raw": "raw/004301_soteini.txt",
+      "processed": "processed/装幀に就いての私の意見.txt",
+      "chars": 197
+    },
+    {
+      "id": "000191",
+      "title": "続西方の人",
+      "raw": "raw/000191_zoku_saihono_hito.txt",
+      "processed": "processed/続西方の人.txt",
+      "chars": 8521
+    },
+    {
+      "id": "003746",
+      "title": "続澄江堂雑記",
+      "raw": "raw/003746_zoku_chokodozakki.txt",
+      "processed": "processed/続澄江堂雑記.txt",
+      "chars": 1957
+    },
+    {
+      "id": "000189",
+      "title": "続芭蕉雑記",
+      "raw": "raw/000189_zoku_basho_zakki.txt",
+      "processed": "processed/続芭蕉雑記.txt",
+      "chars": 1976
+    },
+    {
+      "id": "000190",
+      "title": "続文芸的な、余りに文芸的な",
+      "raw": "raw/000190_zoku_bungeitekina.txt",
+      "processed": "processed/続文芸的な、余りに文芸的な.txt",
+      "chars": 3578
+    },
+    {
+      "id": "003744",
+      "title": "続野人生計事",
+      "raw": "raw/003744_zoku_yajinseikeino_koto.txt",
+      "processed": "processed/続野人生計事.txt",
+      "chars": 12250
+    },
+    {
+      "id": "003793",
+      "title": "その頃の赤門生活",
+      "raw": "raw/003793_sonokorono_akamonseikatsu.txt",
+      "processed": "processed/その頃の赤門生活.txt",
+      "chars": 1271
+    },
+    {
+      "id": "000157",
+      "title": "素描三題",
+      "raw": "raw/000157_sobyo_sandai.txt",
+      "processed": "processed/素描三題.txt",
+      "chars": 2501
+    },
+    {
+      "id": "003762",
+      "title": "大正十二年九月一日の大震に際して",
+      "raw": "raw/003762_taisho_juninen.txt",
+      "processed": "processed/大正十二年九月一日の大震に際して.txt",
+      "chars": 8610
+    },
+    {
+      "id": "000032",
+      "title": "大導寺信輔の半生",
+      "subtitle": "――或精神的風景画――",
+      "raw": "raw/000032_daidoji_shinsuke.txt",
+      "processed": "processed/大導寺信輔の半生.txt",
+      "chars": 12693
+    },
+    {
+      "id": "046672",
+      "title": "大導寺信輔の半生",
+      "subtitle": "―或精神的風景画―",
+      "raw": "raw/046672_daidojishinsukeno_hansei.txt",
+      "processed": "processed/大導寺信輔の半生_046672.txt",
+      "chars": 12734
+    },
+    {
+      "id": "000033",
+      "title": "第四の夫から",
+      "raw": "raw/000033_daiyonno_ottokara.txt",
+      "processed": "processed/第四の夫から.txt",
+      "chars": 2604
+    },
+    {
+      "id": "043382",
+      "title": "滝田哲太郎君",
+      "raw": "raw/043382_takita_tetsutarokun.txt",
+      "processed": "processed/滝田哲太郎君.txt",
+      "chars": 988
+    },
+    {
+      "id": "043383",
+      "title": "滝田哲太郎氏",
+      "raw": "raw/043383_takita_tetsutaro.txt",
+      "processed": "processed/滝田哲太郎氏.txt",
+      "chars": 1255
+    },
+    {
+      "id": "001132",
+      "title": "竜村平蔵氏の芸術",
+      "raw": "raw/001132_tatsumura_heizo_shi.txt",
+      "processed": "processed/竜村平蔵氏の芸術.txt",
+      "chars": 1363
+    },
+    {
+      "id": "004276",
+      "title": "谷崎潤一郎氏",
+      "raw": "raw/004276_tanizaki_jun'ichiro_shi.txt",
+      "processed": "processed/谷崎潤一郎氏.txt",
+      "chars": 920
+    },
+    {
+      "id": "000164",
+      "title": "たね子の憂鬱",
+      "raw": "raw/000164_tanekono_yutsu.txt",
+      "processed": "processed/たね子の憂鬱.txt",
+      "chars": 3677
+    },
+    {
+      "id": "000163",
+      "title": "煙草と悪魔",
+      "raw": "raw/000163_tabakoto_akuma.txt",
+      "processed": "processed/煙草と悪魔.txt",
+      "chars": 6384
+    },
+    {
+      "id": "003773",
+      "title": "田端人",
+      "raw": "raw/003773_tabatajin.txt",
+      "processed": "processed/田端人.txt",
+      "chars": 1785
+    },
+    {
+      "id": "002692",
+      "title": "田端日記",
+      "raw": "raw/002692_tabata_nikki.txt",
+      "processed": "processed/田端日記.txt",
+      "chars": 4484
+    },
+    {
+      "id": "003759",
+      "title": "近頃の幽霊",
+      "raw": "raw/003759_chikagorono_yurei.txt",
+      "processed": "processed/近頃の幽霊.txt",
+      "chars": 2755
+    },
+    {
+      "id": "000030",
+      "title": "父",
+      "raw": "raw/000030_chichi.txt",
+      "processed": "processed/父.txt",
+      "chars": 3438
+    },
+    {
+      "id": "000173",
+      "title": "忠義",
+      "raw": "raw/000173_chugi.txt",
+      "processed": "processed/忠義.txt",
+      "chars": 13328
+    },
+    {
+      "id": "000031",
+      "title": "偸盗",
+      "raw": "raw/000031_chuto.txt",
+      "processed": "processed/偸盗.txt",
+      "chars": 49488
+    },
+    {
+      "id": "003745",
+      "title": "澄江堂雑記",
+      "raw": "raw/003745_chokodozakki.txt",
+      "processed": "processed/澄江堂雑記.txt",
+      "chars": 16174
+    },
+    {
+      "id": "051216",
+      "title": "長江游記",
+      "raw": "raw/051216_chokoyuki.txt",
+      "processed": "processed/長江游記.txt",
+      "chars": 7496
+    },
+    {
+      "id": "000172",
+      "title": "樗牛の事",
+      "raw": "raw/000172_chogyuno_koto.txt",
+      "processed": "processed/樗牛の事.txt",
+      "chars": 3521
+    },
+    {
+      "id": "001141",
+      "title": "追憶",
+      "raw": "raw/001141_tsuioku.txt",
+      "processed": "processed/追憶.txt",
+      "chars": 11528
+    },
+    {
+      "id": "043385",
+      "title": "恒藤恭氏",
+      "raw": "raw/043385_tsuneto_kyoshi.txt",
+      "processed": "processed/恒藤恭氏.txt",
+      "chars": 1810
+    },
+    {
+      "id": "000166",
+      "title": "手紙",
+      "raw": "raw/000166_tegami.txt",
+      "processed": "processed/手紙.txt",
+      "chars": 5458
+    },
+    {
+      "id": "043386",
+      "title": "出来上った人",
+      "subtitle": "――室生犀星氏――",
+      "raw": "raw/043386_dekiagatta_hito.txt",
+      "processed": "processed/出来上った人.txt",
+      "chars": 588
+    },
+    {
+      "id": "000034",
+      "title": "伝吉の敵打ち",
+      "raw": "raw/000034_denkichi.txt",
+      "processed": "processed/伝吉の敵打ち.txt",
+      "chars": 4769
+    },
+    {
+      "id": "000167",
+      "title": "点鬼簿",
+      "raw": "raw/000167_tenkibo.txt",
+      "processed": "processed/点鬼簿.txt",
+      "chars": 4403
+    },
+    {
+      "id": "003740",
+      "title": "点心",
+      "raw": "raw/003740_tenshin.txt",
+      "processed": "processed/点心.txt",
+      "chars": 7629
+    },
+    {
+      "id": "003807",
+      "title": "東京小品",
+      "raw": "raw/003807_tokyoshohin.txt",
+      "processed": "processed/東京小品.txt",
+      "chars": 4351
+    },
+    {
+      "id": "045623",
+      "title": "東京に生れて",
+      "raw": "raw/045623_tokyoni_umarete.txt",
+      "processed": "processed/東京に生れて.txt",
+      "chars": 965
+    },
+    {
+      "id": "003788",
+      "title": "東西問答",
+      "raw": "raw/003788_tozaimondo.txt",
+      "processed": "processed/東西問答.txt",
+      "chars": 1557
+    },
+    {
+      "id": "000135",
+      "title": "道祖問答",
+      "raw": "raw/000135_doso_mondo.txt",
+      "processed": "processed/道祖問答.txt",
+      "chars": 2271
+    },
+    {
+      "id": "003810",
+      "title": "動物園",
+      "raw": "raw/003810_dobutsuen.txt",
+      "processed": "processed/動物園.txt",
+      "chars": 3707
+    },
+    {
+      "id": "002369",
+      "title": "東洋の秋",
+      "raw": "raw/002369_toyono_aki.txt",
+      "processed": "processed/東洋の秋.txt",
+      "chars": 1414
+    },
+    {
+      "id": "002324",
+      "title": "都会で",
+      "raw": "raw/002324_tokaide.txt",
+      "processed": "processed/都会で.txt",
+      "chars": 1056
+    },
+    {
+      "id": "060859",
+      "title": "読書の態度",
+      "raw": "raw/060859_dokushono_taido.txt",
+      "processed": "processed/読書の態度.txt",
+      "chars": 1574
+    },
+    {
+      "id": "000170",
+      "title": "杜子春",
+      "raw": "raw/000170_toshishun.txt",
+      "processed": "processed/杜子春.txt",
+      "chars": 9354
+    },
+    {
+      "id": "043015",
+      "title": "杜子春",
+      "raw": "raw/043015_toshishun.txt",
+      "processed": "processed/杜子春_043015.txt",
+      "chars": 9294
+    },
+    {
+      "id": "043387",
+      "title": "豊島与志雄氏の事",
+      "raw": "raw/043387_toyoshima_yoshioshino_koto.txt",
+      "processed": "processed/豊島与志雄氏の事.txt",
+      "chars": 1211
+    },
+    {
+      "id": "000168",
+      "title": "虎の話",
+      "raw": "raw/000168_torano_hanashi.txt",
+      "processed": "processed/虎の話.txt",
+      "chars": 1521
+    },
+    {
+      "id": "000169",
+      "title": "トロツコ",
+      "raw": "raw/000169_torokko.txt",
+      "processed": "processed/トロツコ.txt",
+      "chars": 4413
+    },
+    {
+      "id": "043016",
+      "title": "トロッコ",
+      "raw": "raw/043016_torokko.txt",
+      "processed": "processed/トロッコ.txt",
+      "chars": 4407
+    },
+    {
+      "id": "001140",
+      "title": "長崎",
+      "raw": "raw/001140_nagasaki.txt",
+      "processed": "processed/長崎.txt",
+      "chars": 329
+    },
+    {
+      "id": "000104",
+      "title": "長崎小品",
+      "raw": "raw/000104_nagasaki_shohin.txt",
+      "processed": "processed/長崎小品.txt",
+      "chars": 2643
+    },
+    {
+      "id": "043388",
+      "title": "夏目先生と滝田さん",
+      "raw": "raw/043388_natsumesenseito_takitasan.txt",
+      "processed": "processed/夏目先生と滝田さん.txt",
+      "chars": 659
+    },
+    {
+      "id": "000105",
+      "title": "南京の基督",
+      "raw": "raw/000105_nankinno_kirisuto.txt",
+      "processed": "processed/南京の基督.txt",
+      "chars": 10048
+    },
+    {
+      "id": "000145",
+      "title": "廿年後之戦争",
+      "raw": "raw/000145_nijunengono_senso.txt",
+      "processed": "processed/廿年後之戦争.txt",
+      "chars": 4748
+    },
+    {
+      "id": "003778",
+      "title": "偽者二題",
+      "raw": "raw/003778_nisemononidai.txt",
+      "processed": "processed/偽者二題.txt",
+      "chars": 1086
+    },
+    {
+      "id": "000109",
+      "title": "尼提",
+      "raw": "raw/000109_nidai.txt",
+      "processed": "processed/尼提.txt",
+      "chars": 2187
+    },
+    {
+      "id": "000110",
+      "title": "日光小品",
+      "raw": "raw/000110_nikko_shohin.txt",
+      "processed": "processed/日光小品.txt",
+      "chars": 4170
+    },
+    {
+      "id": "003774",
+      "title": "日本小説の支那訳",
+      "raw": "raw/003774_nipponshosetsuno_shinayaku.txt",
+      "processed": "processed/日本小説の支那訳.txt",
+      "chars": 1402
+    },
+    {
+      "id": "003776",
+      "title": "日本の女",
+      "raw": "raw/003776_nipponno_onna.txt",
+      "processed": "processed/日本の女.txt",
+      "chars": 7465
+    },
+    {
+      "id": "003753",
+      "title": "入社の辞",
+      "raw": "raw/003753_nyushano_ji.txt",
+      "processed": "processed/入社の辞.txt",
+      "chars": 1357
+    },
+    {
+      "id": "001031",
+      "title": "女仙",
+      "raw": "raw/001031_nyosen.txt",
+      "processed": "processed/女仙.txt",
+      "chars": 968
+    },
+    {
+      "id": "000114",
+      "title": "女体",
+      "raw": "raw/000114_nyotai.txt",
+      "processed": "processed/女体.txt",
+      "chars": 1107
+    },
+    {
+      "id": "000111",
+      "title": "庭",
+      "raw": "raw/000111_niwa.txt",
+      "processed": "processed/庭.txt",
+      "chars": 5471
+    },
+    {
+      "id": "003808",
+      "title": "沼",
+      "raw": "raw/003808_numa.txt",
+      "processed": "processed/沼.txt",
+      "chars": 1250
+    },
+    {
+      "id": "000113",
+      "title": "沼地",
+      "raw": "raw/000113_numachi.txt",
+      "processed": "processed/沼地.txt",
+      "chars": 1881
+    },
+    {
+      "id": "000106",
+      "title": "葱",
+      "raw": "raw/000106_negi.txt",
+      "processed": "processed/葱.txt",
+      "chars": 8200
+    },
+    {
+      "id": "000108",
+      "title": "鼠小僧次郎吉",
+      "raw": "raw/000108_nezumikozo_jirokichi.txt",
+      "processed": "processed/鼠小僧次郎吉.txt",
+      "chars": 12499
+    },
+    {
+      "id": "003775",
+      "title": "念仁波念遠入礼帖",
+      "raw": "raw/003775_nenniwa_nen'o_irecho.txt",
+      "processed": "processed/念仁波念遠入礼帖.txt",
+      "chars": 840
+    },
+    {
+      "id": "000107",
+      "title": "年末の一日",
+      "raw": "raw/000107_nenmatsuno_ichinichi.txt",
+      "processed": "processed/年末の一日.txt",
+      "chars": 3027
+    },
+    {
+      "id": "000112",
+      "title": "野呂松人形",
+      "raw": "raw/000112_noroma_ningyo.txt",
+      "processed": "processed/野呂松人形.txt",
+      "chars": 3223
+    },
+    {
+      "id": "003760",
+      "title": "八宝飯",
+      "raw": "raw/003760_papaohan.txt",
+      "processed": "processed/八宝飯.txt",
+      "chars": 2755
+    },
+    {
+      "id": "003752",
+      "title": "俳画展覧会を観て",
+      "raw": "raw/003752_haigatenrankaio_mite.txt",
+      "processed": "processed/俳画展覧会を観て.txt",
+      "chars": 1003
+    },
+    {
+      "id": "004275",
+      "title": "梅花に対する感情",
+      "subtitle": "このジャアナリズムの一篇を謹厳なる西川英次郎君に献ず",
+      "raw": "raw/004275_baikani_taisuru.txt",
+      "processed": "processed/梅花に対する感情.txt",
+      "chars": 1970
+    },
+    {
+      "id": "003758",
+      "title": "売文問答",
+      "raw": "raw/003758_baibunmondo.txt",
+      "processed": "processed/売文問答.txt",
+      "chars": 1743
+    },
+    {
+      "id": "000040",
+      "title": "歯車",
+      "raw": "raw/000040_haguruma.txt",
+      "processed": "processed/歯車.txt",
+      "chars": 25509
+    },
+    {
+      "id": "042377",
+      "title": "歯車",
+      "raw": "raw/042377_haguruma.txt",
+      "processed": "processed/歯車_042377.txt",
+      "chars": 25453
+    },
+    {
+      "id": "000023",
+      "title": "芭蕉雑記",
+      "raw": "raw/000023_basho_zakki.txt",
+      "processed": "processed/芭蕉雑記.txt",
+      "chars": 13016
+    },
+    {
+      "id": "003811",
+      "title": "パステルの竜",
+      "raw": "raw/003811_pastel_no_ryu.txt",
+      "processed": "processed/パステルの竜.txt",
+      "chars": 1194
+    },
+    {
+      "id": "003749",
+      "title": "はつきりした形をとる為めに",
+      "raw": "raw/003749_hakkirishita_katachio.txt",
+      "processed": "processed/はつきりした形をとる為めに.txt",
+      "chars": 1155
+    },
+    {
+      "id": "000042",
+      "title": "鼻",
+      "raw": "raw/000042_hana.txt",
+      "processed": "processed/鼻.txt",
+      "chars": 5831
+    },
+    {
+      "id": "000041",
+      "title": "母",
+      "raw": "raw/000041_haha.txt",
+      "processed": "processed/母.txt",
+      "chars": 8738
+    },
+    {
+      "id": "000045",
+      "title": "春",
+      "raw": "raw/000045_haru.txt",
+      "processed": "processed/春.txt",
+      "chars": 9640
+    },
+    {
+      "id": "004281",
+      "title": "春の日のさした往来をぶらぶら一人歩いてゐる",
+      "raw": "raw/004281_harunohino_sashita.txt",
+      "processed": "processed/春の日のさした往来をぶらぶら一人歩いてゐる.txt",
+      "chars": 813
+    },
+    {
+      "id": "002367",
+      "title": "春の夜は",
+      "raw": "raw/002367_haruno_yowa.txt",
+      "processed": "processed/春の夜は.txt",
+      "chars": 1135
+    },
+    {
+      "id": "000046",
+      "title": "春の夜",
+      "raw": "raw/000046_haruno_yo.txt",
+      "processed": "processed/春の夜.txt",
+      "chars": 2561
+    },
+    {
+      "id": "000043",
+      "title": "手巾",
+      "raw": "raw/000043_hankechi.txt",
+      "processed": "processed/手巾.txt",
+      "chars": 7456
+    },
+    {
+      "id": "001130",
+      "title": "ピアノ",
+      "raw": "raw/001130_piano.txt",
+      "processed": "processed/ピアノ.txt",
+      "chars": 1405
+    },
+    {
+      "id": "003821",
+      "title": "微笑",
+      "raw": "raw/003821_bisho.txt",
+      "processed": "processed/微笑.txt",
+      "chars": 918
+    },
+    {
+      "id": "000024",
+      "title": "尾生の信",
+      "raw": "raw/000024_biseino_shin.txt",
+      "processed": "processed/尾生の信.txt",
+      "chars": 1648
+    },
+    {
+      "id": "004304",
+      "title": "人及び芸術家としての薄田泣菫氏",
+      "subtitle": "薄田泣菫氏及び同令夫人に献ず",
+      "raw": "raw/004304_hitooyobi_geijutsuka.txt",
+      "processed": "processed/人及び芸術家としての薄田泣菫氏.txt",
+      "chars": 1827
+    },
+    {
+      "id": "000171",
+      "title": "一塊の土",
+      "raw": "raw/000171_hitokureno_tsuchi.txt",
+      "processed": "processed/一塊の土.txt",
+      "chars": 9463
+    },
+    {
+      "id": "003754",
+      "title": "一つの作が出来上るまで",
+      "subtitle": "――「枯野抄」――「奉教人の死」――",
+      "raw": "raw/003754_hitotsuno_sakuga.txt",
+      "processed": "processed/一つの作が出来上るまで.txt",
+      "chars": 1750
+    },
+    {
+      "id": "003787",
+      "title": "一人の無名作家",
+      "raw": "raw/003787_hitorino_mumeisakka.txt",
+      "processed": "processed/一人の無名作家.txt",
+      "chars": 690
+    },
+    {
+      "id": "000047",
+      "title": "雛",
+      "raw": "raw/000047_hina.txt",
+      "processed": "processed/雛.txt",
+      "chars": 11364
+    },
+    {
+      "id": "003780",
+      "title": "病牀雑記",
+      "raw": "raw/003780_byoshozakki.txt",
+      "processed": "processed/病牀雑記.txt",
+      "chars": 1142
+    },
+    {
+      "id": "003786",
+      "title": "病中雑記",
+      "raw": "raw/003786_byochuzakki.txt",
+      "processed": "processed/病中雑記.txt",
+      "chars": 1957
+    },
+    {
+      "id": "000054",
+      "title": "ひょっとこ",
+      "raw": "raw/000054_hyottoko.txt",
+      "processed": "processed/ひょっとこ.txt",
+      "chars": 5892
+    },
+    {
+      "id": "004303",
+      "title": "平田先生の翻訳",
+      "raw": "raw/004303_hiratasensei.txt",
+      "processed": "processed/平田先生の翻訳.txt",
+      "chars": 1416
+    },
+    {
+      "id": "003791",
+      "title": "比呂志との問答",
+      "raw": "raw/003791_hiroshitono_mondo.txt",
+      "processed": "processed/比呂志との問答.txt",
+      "chars": 182
+    },
+    {
+      "id": "003781",
+      "title": "風変りな作品に就いて",
+      "raw": "raw/003781_fugawarina_sakuhin.txt",
+      "processed": "processed/風変りな作品に就いて.txt",
+      "chars": 1227
+    },
+    {
+      "id": "000052",
+      "title": "不思議な島",
+      "raw": "raw/000052_fushigina_shima.txt",
+      "processed": "processed/不思議な島.txt",
+      "chars": 6455
+    },
+    {
+      "id": "003785",
+      "title": "拊掌談",
+      "raw": "raw/003785_fushodan.txt",
+      "processed": "processed/拊掌談.txt",
+      "chars": 1856
+    },
+    {
+      "id": "000165",
+      "title": "二つの手紙",
+      "raw": "raw/000165_futatsuno_tegami.txt",
+      "processed": "processed/二つの手紙.txt",
+      "chars": 11846
+    },
+    {
+      "id": "000086",
+      "title": "二人小町",
+      "raw": "raw/000086_futari_komachi.txt",
+      "processed": "processed/二人小町.txt",
+      "chars": 6361
+    },
+    {
+      "id": "059228",
+      "title": "二人の紅毛画家",
+      "raw": "raw/059228_futarino_komo_gaka.txt",
+      "processed": "processed/二人の紅毛画家.txt",
+      "chars": 421
+    },
+    {
+      "id": "003822",
+      "title": "二人の友",
+      "raw": "raw/003822_futarino_tomo.txt",
+      "processed": "processed/二人の友.txt",
+      "chars": 1094
+    },
+    {
+      "id": "000028",
+      "title": "舞踏会",
+      "raw": "raw/000028_butokai.txt",
+      "processed": "processed/舞踏会.txt",
+      "chars": 5190
+    },
+    {
+      "id": "000051",
+      "title": "文放古",
+      "raw": "raw/000051_fumihogo.txt",
+      "processed": "processed/文放古.txt",
+      "chars": 4131
+    },
+    {
+      "id": "000053",
+      "title": "冬",
+      "raw": "raw/000053_fuyu.txt",
+      "processed": "processed/冬.txt",
+      "chars": 5793
+    },
+    {
+      "id": "056820",
+      "title": "仏蘭西文学と僕",
+      "raw": "raw/056820_furansu_bungakuto_boku.txt",
+      "processed": "processed/仏蘭西文学と僕.txt",
+      "chars": 2416
+    },
+    {
+      "id": "004302",
+      "title": "プロレタリア文学論",
+      "raw": "raw/004302_proletariat.txt",
+      "processed": "processed/プロレタリア文学論.txt",
+      "chars": 2551
+    },
+    {
+      "id": "000025",
+      "title": "文学好きの家庭から",
+      "raw": "raw/000025_bungakuzukino_kateikara.txt",
+      "processed": "processed/文学好きの家庭から.txt",
+      "chars": 614
+    },
+    {
+      "id": "046227",
+      "title": "文芸鑑賞講座",
+      "raw": "raw/046227_bungeikansho_koza.txt",
+      "processed": "processed/文芸鑑賞講座.txt",
+      "chars": 10877
+    },
+    {
+      "id": "000026",
+      "title": "文芸的な、余りに文芸的な",
+      "raw": "raw/000026_bungeitekina_amarini.txt",
+      "processed": "processed/文芸的な、余りに文芸的な.txt",
+      "chars": 50354
+    },
+    {
+      "id": "000027",
+      "title": "文章",
+      "raw": "raw/000027_bunsho.txt",
+      "processed": "processed/文章.txt",
+      "chars": 6842
+    },
+    {
+      "id": "003755",
+      "title": "文章と言葉と",
+      "raw": "raw/003755_bunshoto_kotobato.txt",
+      "processed": "processed/文章と言葉と.txt",
+      "chars": 676
+    },
+    {
+      "id": "016033",
+      "title": "僻見",
+      "raw": "raw/016033_hekiken.txt",
+      "processed": "processed/僻見.txt",
+      "chars": 18954
+    },
+    {
+      "id": "051217",
+      "title": "北京日記抄",
+      "raw": "raw/051217_pekin_nikki_sho.txt",
+      "processed": "processed/北京日記抄.txt",
+      "chars": 7884
+    },
+    {
+      "id": "003777",
+      "title": "変遷その他",
+      "raw": "raw/003777_hensen_sonota.txt",
+      "processed": "processed/変遷その他.txt",
+      "chars": 2918
+    },
+    {
+      "id": "000050",
+      "title": "報恩記",
+      "raw": "raw/000050_hoonki.txt",
+      "processed": "processed/報恩記.txt",
+      "chars": 14907
+    },
+    {
+      "id": "000049",
+      "title": "奉教人の死",
+      "raw": "raw/000049_hokyoninno_shi.txt",
+      "processed": "processed/奉教人の死.txt",
+      "chars": 9682
+    },
+    {
+      "id": "004614",
+      "title": "ポーの片影",
+      "raw": "raw/004614_poe.txt",
+      "processed": "processed/ポーの片影.txt",
+      "chars": 2483
+    },
+    {
+      "id": "003796",
+      "title": "僕の友だち二三人",
+      "raw": "raw/003796_bokuno_tomodachi_nisannin.txt",
+      "processed": "processed/僕の友だち二三人.txt",
+      "chars": 1367
+    },
+    {
+      "id": "002368",
+      "title": "僕は",
+      "raw": "raw/002368_bokuwa.txt",
+      "processed": "processed/僕は.txt",
+      "chars": 1178
+    },
+    {
+      "id": "001136",
+      "title": "発句私見",
+      "raw": "raw/001136_hokku_shiken.txt",
+      "processed": "processed/発句私見.txt",
+      "chars": 1541
+    },
+    {
+      "id": "055721",
+      "title": "本所両国",
+      "raw": "raw/055721_honjo_ryogoku_shinjishinkana.txt",
+      "processed": "processed/本所両国.txt",
+      "chars": 21165
+    },
+    {
+      "id": "000048",
+      "title": "本所両国",
+      "raw": "raw/000048_honjoryogoku.txt",
+      "processed": "processed/本所両国_000048.txt",
+      "chars": 21427
+    },
+    {
+      "id": "003741",
+      "title": "本の事",
+      "raw": "raw/003741_honno_koto.txt",
+      "processed": "processed/本の事.txt",
+      "chars": 2989
+    },
+    {
+      "id": "003783",
+      "title": "翻訳小品",
+      "raw": "raw/003783_honyaku_shohin.txt",
+      "processed": "processed/翻訳小品.txt",
+      "chars": 1185
+    },
+    {
+      "id": "003765",
+      "title": "正岡子規",
+      "raw": "raw/003765_masaokashiki.txt",
+      "processed": "processed/正岡子規.txt",
+      "chars": 1172
+    },
+    {
+      "id": "000095",
+      "title": "魔術",
+      "raw": "raw/000095_majutsu.txt",
+      "processed": "processed/魔術.txt",
+      "chars": 7312
+    },
+    {
+      "id": "003790",
+      "title": "亦一説？",
+      "raw": "raw/003790_mata_issetsu2.txt",
+      "processed": "processed/亦一説？.txt",
+      "chars": 497
+    },
+    {
+      "id": "003789",
+      "title": "又一説？",
+      "raw": "raw/003789_mata_issetsu1.txt",
+      "processed": "processed/又一説？.txt",
+      "chars": 1079
+    },
+    {
+      "id": "000096",
+      "title": "松江印象記",
+      "raw": "raw/000096_matsue_inshoki.txt",
+      "processed": "processed/松江印象記.txt",
+      "chars": 3151
+    },
+    {
+      "id": "003805",
+      "title": "窓",
+      "raw": "raw/003805_mado.txt",
+      "processed": "processed/窓.txt",
+      "chars": 1483
+    },
+    {
+      "id": "000098",
+      "title": "蜜柑",
+      "raw": "raw/000098_mikan.txt",
+      "processed": "processed/蜜柑.txt",
+      "chars": 3179
+    },
+    {
+      "id": "024453",
+      "title": "蜜柑",
+      "raw": "raw/024453_mikan.txt",
+      "processed": "processed/蜜柑_024453.txt",
+      "chars": 3174
+    },
+    {
+      "id": "043017",
+      "title": "蜜柑",
+      "raw": "raw/043017_mikan.txt",
+      "processed": "processed/蜜柑_043017.txt",
+      "chars": 3176
+    },
+    {
+      "id": "000099",
+      "title": "水の三日",
+      "raw": "raw/000099_mizuno_mikka.txt",
+      "processed": "processed/水の三日.txt",
+      "chars": 5106
+    },
+    {
+      "id": "001126",
+      "title": "三つの宝",
+      "raw": "raw/001126_mittsuno_takara.txt",
+      "processed": "processed/三つの宝.txt",
+      "chars": 7290
+    },
+    {
+      "id": "001124",
+      "title": "三つのなぜ",
+      "raw": "raw/001124_mittsuno_naze.txt",
+      "processed": "processed/三つのなぜ.txt",
+      "chars": 2922
+    },
+    {
+      "id": "001125",
+      "title": "三つの窓",
+      "raw": "raw/001125_mittsuno_mado.txt",
+      "processed": "processed/三つの窓.txt",
+      "chars": 6922
+    },
+    {
+      "id": "003828",
+      "title": "三つの指環",
+      "raw": "raw/003828_mittsuno_yubiwa.txt",
+      "processed": "processed/三つの指環.txt",
+      "chars": 5191
+    },
+    {
+      "id": "003782",
+      "title": "身のまはり",
+      "raw": "raw/003782_mino_mawari.txt",
+      "processed": "processed/身のまはり.txt",
+      "chars": 1322
+    },
+    {
+      "id": "000103",
+      "title": "妙な話",
+      "raw": "raw/000103_myona_hanashi.txt",
+      "processed": "processed/妙な話.txt",
+      "chars": 4845
+    },
+    {
+      "id": "000102",
+      "title": "貉",
+      "raw": "raw/000102_mujina.txt",
+      "processed": "processed/貉.txt",
+      "chars": 2306
+    },
+    {
+      "id": "003792",
+      "title": "無題",
+      "raw": "raw/003792_mudai.txt",
+      "processed": "processed/無題.txt",
+      "chars": 313
+    },
+    {
+      "id": "000097",
+      "title": "Mensura Zoili",
+      "raw": "raw/000097_mensura_zoili.txt",
+      "processed": "processed/Mensura Zoili.txt",
+      "chars": 4133
+    },
+    {
+      "id": "000101",
+      "title": "毛利先生",
+      "raw": "raw/000101_mori_sensei.txt",
+      "processed": "processed/毛利先生.txt",
+      "chars": 12469
+    },
+    {
+      "id": "000100",
+      "title": "桃太郎",
+      "raw": "raw/000100_momotaro.txt",
+      "processed": "processed/桃太郎.txt",
+      "chars": 4493
+    },
+    {
+      "id": "043390",
+      "title": "森先生",
+      "raw": "raw/043390_mori_sensei.txt",
+      "processed": "processed/森先生.txt",
+      "chars": 523
+    },
+    {
+      "id": "001133",
+      "title": "文部省の仮名遣改定案について",
+      "raw": "raw/001133_kanazukai.txt",
+      "processed": "processed/文部省の仮名遣改定案について.txt",
+      "chars": 3374
+    },
+    {
+      "id": "003743",
+      "title": "野人生計事",
+      "raw": "raw/003743_yajinseikeino_koto.txt",
+      "processed": "processed/野人生計事.txt",
+      "chars": 4113
+    },
+    {
+      "id": "000182",
+      "title": "保吉の手帳から",
+      "raw": "raw/000182_yasukichino_techokara.txt",
+      "processed": "processed/保吉の手帳から.txt",
+      "chars": 8881
+    },
+    {
+      "id": "000179",
+      "title": "藪の中",
+      "raw": "raw/000179_yabuno_naka.txt",
+      "processed": "processed/藪の中.txt",
+      "chars": 8556
+    },
+    {
+      "id": "024454",
+      "title": "藪の中",
+      "raw": "raw/024454_yabuno_naka.txt",
+      "processed": "processed/藪の中_024454.txt",
+      "chars": 8440
+    },
+    {
+      "id": "000180",
+      "title": "山鴫",
+      "raw": "raw/000180_yamashigi.txt",
+      "processed": "processed/山鴫.txt",
+      "chars": 8026
+    },
+    {
+      "id": "004628",
+      "title": "槍ヶ岳紀行",
+      "raw": "raw/004628_yarigatake_kiko.txt",
+      "processed": "processed/槍ヶ岳紀行.txt",
+      "chars": 3865
+    },
+    {
+      "id": "000181",
+      "title": "槍が岳に登った記",
+      "raw": "raw/000181_yarigatakeni_nobotta_ki.txt",
+      "processed": "processed/槍が岳に登った記.txt",
+      "chars": 2575
+    },
+    {
+      "id": "001127",
+      "title": "悠々荘",
+      "raw": "raw/001127_yuyuso.txt",
+      "processed": "processed/悠々荘.txt",
+      "chars": 1798
+    },
+    {
+      "id": "000188",
+      "title": "誘惑",
+      "raw": "raw/000188_yuwaku.txt",
+      "processed": "processed/誘惑.txt",
+      "chars": 8332
+    },
+    {
+      "id": "003817",
+      "title": "雪",
+      "raw": "raw/003817_yuki.txt",
+      "processed": "processed/雪.txt",
+      "chars": 723
+    },
+    {
+      "id": "000186",
+      "title": "夢",
+      "raw": "raw/000186_yume.txt",
+      "processed": "processed/夢.txt",
+      "chars": 6447
+    },
+    {
+      "id": "004308",
+      "title": "夢",
+      "raw": "raw/004308_yume_kyukana.txt",
+      "processed": "processed/夢_004308.txt",
+      "chars": 686
+    },
+    {
+      "id": "000187",
+      "title": "百合",
+      "raw": "raw/000187_yuri.txt",
+      "processed": "processed/百合.txt",
+      "chars": 4507
+    },
+    {
+      "id": "000184",
+      "title": "妖婆",
+      "raw": "raw/000184_yoba.txt",
+      "processed": "processed/妖婆.txt",
+      "chars": 37517
+    },
+    {
+      "id": "001135",
+      "title": "横須賀小景",
+      "raw": "raw/001135_yokosuka_shokei.txt",
+      "processed": "processed/横須賀小景.txt",
+      "chars": 548
+    },
+    {
+      "id": "000183",
+      "title": "世之助の話",
+      "raw": "raw/000183_yonosukeno_hanashi.txt",
+      "processed": "processed/世之助の話.txt",
+      "chars": 6567
+    },
+    {
+      "id": "003757",
+      "title": "世の中と女",
+      "raw": "raw/003757_yononakato_onna.txt",
+      "processed": "processed/世の中と女.txt",
+      "chars": 1091
+    },
+    {
+      "id": "000128",
+      "title": "羅生門",
+      "raw": "raw/000128_rashomon_kyu.txt",
+      "processed": "processed/羅生門.txt",
+      "chars": 5712
+    },
+    {
+      "id": "000127",
+      "title": "羅生門",
+      "raw": "raw/000127_rashomon.txt",
+      "processed": "processed/羅生門_000127.txt",
+      "chars": 5757
+    },
+    {
+      "id": "000022",
+      "title": "羅生門の後に",
+      "raw": "raw/000022_rashomonno_atoni.txt",
+      "processed": "processed/羅生門の後に.txt",
+      "chars": 1453
+    },
+    {
+      "id": "003768",
+      "title": "リチャード・バートン訳「一千一夜物語」に就いて",
+      "raw": "raw/003768_richard_burton.txt",
+      "processed": "processed/リチャード・バートン訳「一千一夜物語」に就いて.txt",
+      "chars": 4707
+    },
+    {
+      "id": "000134",
+      "title": "竜",
+      "raw": "raw/000134_ryu.txt",
+      "processed": "processed/竜.txt",
+      "chars": 9436
+    },
+    {
+      "id": "000133",
+      "title": "るしへる",
+      "raw": "raw/000133_rushiheru.txt",
+      "processed": "processed/るしへる.txt",
+      "chars": 4338
+    },
+    {
+      "id": "004279",
+      "title": "恋愛と夫婦愛とを混同しては不可ぬ",
+      "raw": "raw/004279_ren'aito_meotoai.txt",
+      "processed": "processed/恋愛と夫婦愛とを混同しては不可ぬ.txt",
+      "chars": 2551
+    },
+    {
+      "id": "000131",
+      "title": "老年",
+      "raw": "raw/000131_ronen.txt",
+      "processed": "processed/老年.txt",
+      "chars": 3616
+    },
+    {
+      "id": "003819",
+      "title": "臘梅",
+      "raw": "raw/003819_robai.txt",
+      "processed": "processed/臘梅.txt",
+      "chars": 298
+    },
+    {
+      "id": "000130",
+      "title": "六の宮の姫君",
+      "raw": "raw/000130_rokunomiyano_himegimi.txt",
+      "processed": "processed/六の宮の姫君.txt",
+      "chars": 6007
+    },
+    {
+      "id": "000132",
+      "title": "路上",
+      "raw": "raw/000132_rojo.txt",
+      "processed": "processed/路上.txt",
+      "chars": 44242
+    },
+    {
+      "id": "000094",
+      "title": "LOS CAPRICHOS",
+      "raw": "raw/000094_los_caprichos.txt",
+      "processed": "processed/LOS CAPRICHOS.txt",
+      "chars": 4930
+    },
+    {
+      "id": "024455",
+      "title": "露訳短篇集の序",
+      "raw": "raw/024455_royaku_tanpenshuno_jo.txt",
+      "processed": "processed/露訳短篇集の序.txt",
+      "chars": 999
+    },
+    {
+      "id": "003812",
+      "title": "わが散文詩",
+      "raw": "raw/003812_waga_sanbunshi.txt",
+      "processed": "processed/わが散文詩.txt",
+      "chars": 3579
+    },
+    {
+      "id": "003771",
+      "title": "わが俳諧修業",
+      "raw": "raw/003771_waga_haikaishugyo.txt",
+      "processed": "processed/わが俳諧修業.txt",
+      "chars": 874
+    },
+    {
+      "id": "003798",
+      "title": "わが家の古玩",
+      "raw": "raw/003798_wagayano_kogan.txt",
+      "processed": "processed/わが家の古玩.txt",
+      "chars": 1109
+    },
+    {
+      "id": "003806",
+      "title": "忘れられぬ印象",
+      "raw": "raw/003806_wasurerarenu_insho.txt",
+      "processed": "processed/忘れられぬ印象.txt",
+      "chars": 630
+    },
+    {
+      "id": "004871",
+      "title": "私の好きなロマンス中の女性",
+      "raw": "raw/004871_watashinosukina_romance.txt",
+      "processed": "processed/私の好きなロマンス中の女性.txt",
+      "chars": 67
+    }
+  ],
+  "failed": []
+}
