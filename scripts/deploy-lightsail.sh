@@ -26,14 +26,18 @@ set +a
 
 : "${NUXT_ANTHROPIC_API_KEY:?}" "${NUXT_SUPABASE_URL:?}" "${NUXT_SUPABASE_SERVICE_KEY:?}" "${NUXT_PUBLIC_SITE_URL:?}"
 
-echo "==> Dockerイメージをビルド"
-docker build -t akutagawa-app .
+echo "==> Dockerイメージをビルド（Lightsailはlinux/amd64のみ対応）"
+docker build --platform linux/amd64 -t akutagawa-app .
 
 echo "==> Lightsailへイメージをプッシュ"
-PUSH_OUTPUT=$(aws lightsail push-container-image \
+if ! PUSH_OUTPUT=$(aws lightsail push-container-image \
   --service-name "$SERVICE_NAME" \
   --label app \
-  --image akutagawa-app 2>&1)
+  --image akutagawa-app 2>&1); then
+  echo "$PUSH_OUTPUT"
+  echo "イメージのプッシュに失敗しました"
+  exit 1
+fi
 echo "$PUSH_OUTPUT"
 IMAGE_REF=$(echo "$PUSH_OUTPUT" | grep -o ":${SERVICE_NAME}\.app\.[0-9]*" | tail -1)
 [ -n "$IMAGE_REF" ] || { echo "プッシュ後のイメージ名を取得できませんでした"; exit 1; }

@@ -1,3 +1,19 @@
+<script setup lang="ts">
+// AdSenseのクライアントIDが設定されている場合のみ広告スクリプトを読み込む
+const config = useRuntimeConfig()
+if (config.public.adsenseClientId) {
+  useHead({
+    script: [
+      {
+        src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${config.public.adsenseClientId}`,
+        async: true,
+        crossorigin: 'anonymous',
+      },
+    ],
+  })
+}
+</script>
+
 <template>
   <div class="min-h-screen bg-washi font-mincho text-ink">
     <header class="border-b border-sepia/30 py-6 text-center">
@@ -11,8 +27,12 @@
       <NuxtPage />
     </main>
 
-    <footer class="border-t border-sepia/30 py-6 text-center text-xs text-sepia">
-      本サイトの回答はAIによる創作であり、実在した芥川龍之介の見解ではありません。
+    <footer class="space-y-3 border-t border-sepia/30 py-6 text-center text-xs text-sepia">
+      <p>本サイトの回答はAIによる創作であり、実在した芥川龍之介の見解ではありません。</p>
+      <nav class="flex justify-center gap-6">
+        <NuxtLink to="/about" class="underline underline-offset-4 hover:text-vermilion">このサイトについて</NuxtLink>
+        <NuxtLink to="/privacy" class="underline underline-offset-4 hover:text-vermilion">プライバシーポリシー</NuxtLink>
+      </nav>
     </footer>
   </div>
 </template>

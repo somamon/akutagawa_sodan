@@ -15,6 +15,8 @@ async function onSubmit(payload: { nickname: string; query: string; isPublic: bo
 
     <AkutagawaAnswer v-if="submitted && (answer || isStreaming)" :answer="answer" :is-streaming="isStreaming" />
 
+    <BookLinks v-if="answer && !isStreaming" :answer="answer" />
+
     <p v-if="error" class="text-center text-sm text-vermilion">{{ error }}</p>
 
     <div v-if="resultId && !isStreaming" class="flex flex-col items-center gap-3">
@@ -28,6 +30,9 @@ async function onSubmit(payload: { nickname: string; query: string; isPublic: bo
     </div>
 
     <hr class="border-sepia/30">
+
+    <!-- AdSense承認後、発行されたスロットIDを ad-slot に記入 -->
+    <AdSlot ad-slot="" />
 
     <ConsultationTimeline />
   </div>

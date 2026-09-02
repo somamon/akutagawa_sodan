@@ -10,11 +10,25 @@ if (error.value) {
   throw createError({ statusCode: error.value.statusCode ?? 500, statusMessage: 'その相談は見当たらない' })
 }
 
-useHead(() => ({
-  title: consultation.value
+const pageTitle = computed(() =>
+  consultation.value
     ? `${consultation.value.nickname}の悩み | AI芥川龍之介の人生相談`
     : 'AI芥川龍之介の人生相談',
-}))
+)
+const pageDescription = computed(() =>
+  consultation.value ? `${consultation.value.answer.slice(0, 90)}……` : '',
+)
+const config = useRuntimeConfig()
+
+useHead(() => ({ title: pageTitle.value }))
+useSeoMeta({
+  description: pageDescription,
+  ogTitle: pageTitle,
+  ogDescription: pageDescription,
+  ogType: 'article',
+  ogUrl: () => `${config.public.siteUrl}/result/${id}`,
+  twitterCard: 'summary',
+})
 </script>
 
 <template>
@@ -27,6 +41,11 @@ useHead(() => ({
     </section>
 
     <AkutagawaAnswer :answer="consultation.answer" />
+
+    <BookLinks :answer="consultation.answer" />
+
+    <!-- AdSense承認後、発行されたスロットIDを ad-slot に記入 -->
+    <AdSlot ad-slot="" />
 
     <div class="flex flex-col items-center gap-4">
       <ShareToX
