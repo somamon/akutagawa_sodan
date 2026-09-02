@@ -18,6 +18,8 @@ export default defineNuxtConfig({
         { property: 'og:site_name', content: 'AI芥川龍之介の人生相談' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'theme-color', content: '#1a2233' },
+        // Google Search Console の所有権確認
+        { name: 'google-site-verification', content: 'V8YbnVs_mFo2k5N1DsPrmmncamzY-2_HD_6kGLmuQHE' },
       ],
       link: [
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
