@@ -1,0 +1,13 @@
+node_modules
+.nuxt
+.output
+.git
+.env
+.env.*
+corpus
+supabase/.temp
+supabase/.branches
+.claude
+*.log
+.DS_Store
+README.md
