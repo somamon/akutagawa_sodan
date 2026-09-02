@@ -28,8 +28,7 @@ useHead({ title: '運営者情報 | AI芥川龍之介の人生相談' })
       <h3 class="font-bold">連絡先</h3>
       <p class="text-sm leading-relaxed">
         投稿の削除依頼・不具合報告・その他のお問い合わせ:
-        <!-- TODO: 公開してよい連絡先（メールアドレスやGoogleフォームURL）に差し替えてください -->
-        <span class="text-sepia">（連絡先は準備中です）</span>
+        <a href="mailto:kaiseimondo@gmail.com" class="underline">kaiseimondo@gmail.com</a>
       </p>
     </section>
 
