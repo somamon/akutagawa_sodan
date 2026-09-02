@@ -1,5 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { AKUTAGAWA_SYSTEM_PROMPT } from '../utils/akutagawaPersona'
+import { checkRateLimit } from '../utils/rateLimit'
 import { useSupabase } from '../utils/supabase'
 import type { AskStreamMessage } from '~/types/consultation'
 
@@ -22,11 +23,19 @@ export default defineEventHandler(async (event) => {
   const isPublic = body?.isPublic !== false
 
   if (!query) {
-    throw createError({ statusCode: 400, statusMessage: '相談内容が空です' })
+    throw createError({ statusCode: 400, statusMessage: 'Bad Request', message: '相談内容が空です' })
   }
   if (query.length > 2000) {
-    throw createError({ statusCode: 400, statusMessage: '相談は2000字以内で頼む' })
+    throw createError({ statusCode: 400, statusMessage: 'Bad Request', message: '相談は2000字以内で頼む' })
   }
+
+  // AI生成はコストが高いため厳しめに制限（1 IPあたり10分に5回）
+  checkRateLimit(event, {
+    name: 'ask',
+    limit: 5,
+    windowMs: 10 * 60 * 1000,
+    message: '相談が続きすぎている。茶でも飲んで、しばし待ちたまえ。',
+  })
 
   const config = useRuntimeConfig()
   if (!config.anthropicApiKey) {

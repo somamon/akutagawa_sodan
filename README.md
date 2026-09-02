@@ -67,6 +67,13 @@ http://localhost:3000 を開く。
 └── types/consultation.ts      # 共有型定義
 ```
 
+## セキュリティ対策
+
+- **レート制限（IPベース・インメモリ）**: `/api/ask` は10分に5回、いいねは分10回、通報は分5回。マルチインスタンス構成に移行する場合はRedis等の共有ストアへ置き換えること（`server/utils/rateLimit.ts`）
+- **RPC権限の限定**: `increment_likes` / `increment_reports` はEXECUTE権限を `service_role` のみに限定（anon経由の直接呼び出しは permission denied）
+- **通報機能**: 各投稿に通報ボタン。3件以上通報された投稿はタイムライン・個別ページとも非表示（閾値は `server/utils/moderation.ts`）。復旧・完全削除はSupabase Studioで行う
+- **プロンプトインジェクション対策**: 相談文中の指示（人格変更・プロンプト開示要求など）には従わず、芥川として皮肉で返す旨をシステムプロンプトに明記
+
 ## 設計メモ
 
 - **Supabaseへのアクセスはすべてサーバー側**（service_role キー使用、RLSで anon 全拒否）。クライアントにキーは露出しない。

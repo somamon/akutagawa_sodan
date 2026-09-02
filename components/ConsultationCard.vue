@@ -6,9 +6,11 @@ const props = defineProps<{
 }>()
 
 const { hasLiked, like } = useLikes()
+const { hasReported, report } = useReports()
 
 const likeCount = ref(props.consultation.likes)
 const liked = computed(() => hasLiked(props.consultation.id))
+const reported = computed(() => hasReported(props.consultation.id))
 
 async function onLike() {
   try {
@@ -16,6 +18,16 @@ async function onLike() {
     if (updated !== null) likeCount.value = updated
   } catch (e) {
     console.error('[ConsultationCard] いいねに失敗:', e)
+  }
+}
+
+async function onReport() {
+  if (reported.value) return
+  if (!window.confirm('この投稿を不適切な内容として通報しますか？')) return
+  try {
+    await report(props.consultation.id)
+  } catch (e) {
+    console.error('[ConsultationCard] 通報に失敗:', e)
   }
 }
 
@@ -49,12 +61,22 @@ function truncate(text: string, length: number): string {
       >
         {{ liked ? '♥' : '♡' }} 共感 {{ likeCount }}
       </button>
-      <NuxtLink
-        :to="`/result/${consultation.id}`"
-        class="text-sm text-sepia underline underline-offset-4 hover:text-vermilion"
-      >
-        全文を読む
-      </NuxtLink>
+      <div class="flex items-center gap-4">
+        <button
+          type="button"
+          :disabled="reported"
+          class="text-xs text-sepia/60 transition hover:text-vermilion disabled:cursor-default disabled:hover:text-sepia/60"
+          @click="onReport"
+        >
+          {{ reported ? '通報済み' : '通報' }}
+        </button>
+        <NuxtLink
+          :to="`/result/${consultation.id}`"
+          class="text-sm text-sepia underline underline-offset-4 hover:text-vermilion"
+        >
+          全文を読む
+        </NuxtLink>
+      </div>
     </div>
   </article>
 </template>

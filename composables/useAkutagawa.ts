@@ -1,5 +1,8 @@
 import type { AskStreamMessage } from '~/types/consultation'
 
+/** サーバーが日本語メッセージ付きで返したエラー（そのまま画面に出してよい） */
+class ServerMessageError extends Error {}
+
 /**
  * /api/ask の SSE ストリームを消費し、回答を1文字ずつ蓄積する。
  */
@@ -23,6 +26,15 @@ export function useAkutagawa() {
       })
 
       if (!response.ok || !response.body) {
+        // サーバーが返すエラー（レート制限・バリデーション）はそのまま見せる
+        let serverMessage: string | null = null
+        try {
+          const body = await response.json()
+          serverMessage = body?.message || null
+        } catch {
+          // JSONでなければ汎用メッセージにフォールバック
+        }
+        if (serverMessage) throw new ServerMessageError(serverMessage)
         throw new Error(`リクエストに失敗しました (${response.status})`)
       }
 
@@ -58,7 +70,10 @@ export function useAkutagawa() {
       }
     } catch (e) {
       console.error('[useAkutagawa]', e)
-      error.value = '芥川との通信が途絶えた。時を置いて、また試してくれたまえ。'
+      error.value =
+        e instanceof ServerMessageError
+          ? e.message
+          : '芥川との通信が途絶えた。時を置いて、また試してくれたまえ。'
     } finally {
       isStreaming.value = false
     }
