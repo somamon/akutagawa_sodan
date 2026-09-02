@@ -1,6 +1,37 @@
 <script setup lang="ts">
-// AdSenseのクライアントIDが設定されている場合のみ広告スクリプトを読み込む
 const config = useRuntimeConfig()
+const route = useRoute()
+
+// canonical URL を全ページに付与する。
+// Lightsail の既定URLでも同じ内容が配信されるため、これがないと
+// 検索エンジンに重複コンテンツとみなされ評価が分散する。
+useHead({
+  link: [
+    {
+      rel: 'canonical',
+      href: () => `${config.public.siteUrl}${route.path === '/' ? '' : route.path}`,
+    },
+  ],
+})
+
+// サイト全体の構造化データ（検索結果でのサイト名表示に使われる）
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'AI芥川龍之介の人生相談',
+        url: config.public.siteUrl,
+        description: '文豪・芥川龍之介（AI）があなたの悩みに皮肉と諦念をもって答えます。',
+        inLanguage: 'ja',
+      }),
+    },
+  ],
+})
+
+// AdSenseのクライアントIDが設定されている場合のみ広告スクリプトを読み込む
 if (config.public.adsenseClientId) {
   useHead({
     script: [
@@ -25,7 +56,13 @@ if (config.public.adsenseClientId) {
           height="72"
           class="mb-3 h-16 w-16 rounded-xl shadow-sm sm:h-[72px] sm:w-[72px]"
         >
-        <h1 class="text-2xl font-bold tracking-widest sm:text-3xl">AI芥川龍之介の人生相談</h1>
+        <!-- トップでは h1、下層ページでは各ページの見出しを h1 にするため p にする -->
+        <component
+          :is="route.path === '/' ? 'h1' : 'p'"
+          class="text-2xl font-bold tracking-widest sm:text-3xl"
+        >
+          AI芥川龍之介の人生相談
+        </component>
         <p class="mt-2 text-sm text-sepia">— 君の悩み、僕が冷徹に解剖しよう —</p>
       </NuxtLink>
     </header>
