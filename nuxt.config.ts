@@ -35,12 +35,26 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    // 毎日21時（JST）に公開相談を1件Xへ投稿する。
+    // コンテナのTZはDockerfileで Asia/Tokyo に設定している。
+    experimental: { tasks: true },
+    scheduledTasks: { '0 21 * * *': ['x:daily'] },
+  },
+
   runtimeConfig: {
     // NUXT_ANTHROPIC_API_KEY で上書き
     anthropicApiKey: '',
     // NUXT_SUPABASE_URL / NUXT_SUPABASE_SERVICE_KEY で上書き
     supabaseUrl: '',
     supabaseServiceKey: '',
+    // X(Twitter) 自動投稿。未設定なら投稿処理は何もしない
+    xApiKey: '',
+    xApiSecret: '',
+    xAccessToken: '',
+    xAccessSecret: '',
+    // 定期タスクを手動実行するときの合言葉（NUXT_TASK_SECRET）
+    taskSecret: '',
 
     // ---- アプリ版の買い切り課金 ----
     // ストアに登録した商品ID（NUXT_IAP_PRODUCT_ID）

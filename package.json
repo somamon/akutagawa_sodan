@@ -19,7 +19,8 @@
     "@resvg/resvg-wasm": "^2.6.2",
     "@supabase/supabase-js": "^2.113.0",
     "nuxt": "^3.21.11",
-    "satori": "^0.33.4"
+    "satori": "^0.33.4",
+    "twitter-api-v2": "^1.29.1"
   },
   "devDependencies": {
     "supabase": "^2.116.0",

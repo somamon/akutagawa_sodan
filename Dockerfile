@@ -20,6 +20,8 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV NITRO_HOST=0.0.0.0
 ENV NITRO_PORT=3000
+# 定期投稿のcronを日本時間で解釈させる
+ENV TZ=Asia/Tokyo
 
 COPY --from=build /app/.output ./.output
 
