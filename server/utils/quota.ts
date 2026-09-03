@@ -215,6 +215,20 @@ export async function consumeAskQuota(event: H3Event, subject: AskSubject): Prom
  * 機種変更や再インストール後の「購入を復元」では同じレシートが別の端末IDで届くため、
  * transaction_id を主キーにして device_id を貼り替える。
  */
+/**
+ * 消費した1回分を返す（生成に失敗したとき用）。
+ * 返却自体に失敗しても相談の処理は続行させたいので、例外は投げずログに留める。
+ */
+export async function refundAskQuota(subject: AskSubject): Promise<void> {
+  try {
+    const supabase = useSupabase()
+    const { error } = await supabase.rpc('refund_app_quota', { p_subject: subjectKey(subject) })
+    if (error) console.error('[quota] 返却に失敗:', error)
+  } catch (e) {
+    console.error('[quota] 返却時に例外:', e)
+  }
+}
+
 export async function grantEntitlement(deviceId: string, purchase: VerifiedPurchase) {
   const supabase = useSupabase()
   const { error } = await supabase.from('app_entitlements').upsert(
