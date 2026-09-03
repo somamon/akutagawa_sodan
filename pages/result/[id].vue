@@ -88,8 +88,7 @@ useHead(() => ({
 
     <BookLinks :answer="consultation.answer" />
 
-    <!-- AdSense承認後、発行されたスロットIDを ad-slot に記入 -->
-    <AdSlot ad-slot="" />
+    <AdSlot ad-slot="3481591720" />
 
     <div class="flex flex-col items-center gap-4">
       <ShareToX

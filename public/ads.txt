@@ -1,2 +1,1 @@
-# AdSense承認後、管理画面の指示に従って以下の形式の行に置き換える:
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-1929111704868380, DIRECT, f08c47fec0942fa0

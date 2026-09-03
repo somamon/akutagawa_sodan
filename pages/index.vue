@@ -39,8 +39,7 @@ async function onSubmit(payload: { nickname: string; query: string; isPublic: bo
 
     <hr class="border-sepia/30">
 
-    <!-- AdSense承認後、発行されたスロットIDを ad-slot に記入 -->
-    <AdSlot ad-slot="" />
+    <AdSlot ad-slot="3481591720" />
 
     <ConsultationTimeline />
   </div>
