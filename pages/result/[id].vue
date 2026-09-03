@@ -35,8 +35,11 @@ useSeoMeta({
   ogDescription: pageDescription,
   ogType: 'article',
   ogUrl: pageUrl,
-  ogImage: `${config.public.siteUrl}/ogp.png`,
-  twitterImage: `${config.public.siteUrl}/ogp.png`,
+  // 相談ごとに回答を印字したカードを出す（全ページ共通画像だと流れない）
+  ogImage: `${config.public.siteUrl}/ogp/${id}.png`,
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  twitterImage: `${config.public.siteUrl}/ogp/${id}.png`,
   twitterCard: 'summary_large_image',
 })
 

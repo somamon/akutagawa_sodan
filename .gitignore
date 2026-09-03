@@ -24,3 +24,6 @@ supabase/.branches
 
 # macOS
 .DS_Store
+
+# resvg の WASM は postinstall で node_modules から複製される
+server/assets/wasm/
