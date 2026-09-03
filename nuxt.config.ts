@@ -20,6 +20,8 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#1a2233' },
         // Google Search Console の所有権確認
         { name: 'google-site-verification', content: 'V8YbnVs_mFo2k5N1DsPrmmncamzY-2_HD_6kGLmuQHE' },
+        // AdSense の所有権確認（メタタグ方式）
+        { name: 'google-adsense-account', content: 'ca-pub-1929111704868380' },
       ],
       link: [
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
