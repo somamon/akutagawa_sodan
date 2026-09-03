@@ -18,6 +18,23 @@ cd "$(dirname "$0")/.."
 SERVICE_NAME="${SERVICE_NAME:-akutagawa-soudan}"
 MODE="${1:-status}"
 
+# スペック変更やデプロイの直後はサービスが遷移中になり、続けて操作できない。
+# 落ち着くまで待つ（RUNNING か READY で受け付け可能）。
+wait_ready() {
+  local state
+  for _ in $(seq 1 120); do
+    state=$(aws lightsail get-container-services --service-name "$SERVICE_NAME" \
+      --query 'containerServices[0].state' --output text 2>/dev/null || echo UNKNOWN)
+    case "$state" in
+      RUNNING|READY) return 0 ;;
+      DISABLED|FAILED) echo "サービスが $state です。手当てが必要です"; return 1 ;;
+    esac
+    sleep 10
+  done
+  echo "待機がタイムアウトしました（現在: $state）"
+  return 1
+}
+
 show_status() {
   aws lightsail get-container-services --service-name "$SERVICE_NAME" \
     --query 'containerServices[0].{power:power,nodes:scale,state:state,url:url}' --output table
@@ -51,9 +68,16 @@ source "$ENV_FILE"
 set +a
 : "${NUXT_ANTHROPIC_API_KEY:?}" "${NUXT_SUPABASE_URL:?}" "${NUXT_SUPABASE_SERVICE_KEY:?}" "${NUXT_PUBLIC_SITE_URL:?}"
 
+echo "==> サービスが操作可能になるのを待つ"
+wait_ready
+
 echo "==> スペックを ${POWER} に変更"
 aws lightsail update-container-service \
   --service-name "$SERVICE_NAME" --power "$POWER" --scale 1 > /dev/null
+
+# パワー変更はサービスを遷移状態にする。ここで待たずにデプロイすると弾かれる
+echo "==> 反映を待つ"
+wait_ready
 
 echo "==> 同時生成上限 ${CONCURRENT} で再デプロイ"
 DEPLOY_JSON=$(mktemp)
